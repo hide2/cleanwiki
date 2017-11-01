@@ -17,7 +17,7 @@ class SeedUsersTable extends Migration
             array(
                 array(
                     'name' => 'admin',
-                    'email' => 'admin@fancyguo.cn',
+                    'email' => 'admin@cleanwiki.cn',
                     'password' => bcrypt('admin')
                 )
             )
