@@ -19,9 +19,41 @@
     <link rel="stylesheet" type="text/css" href="/js/bootstrap.datetimepicker/css/bootstrap-datetimepicker.min.css" />
     <link rel="stylesheet" type="text/css" href="/js/jquery.select2/select2.css" />
     <link rel="stylesheet" type="text/css" href="/js/bootstrap.slider/css/slider.css" />
-    <link rel="stylesheet" type="text/css" href="js\jquery.timeline\css\component.css" />
     <!-- Custom CSS -->
     <link href="/css/style.css" rel="stylesheet" />
+    <!-- Markdown CSS -->
+    <link href="/css/markdown.css" rel="stylesheet" />
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="/js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
+    <script type="text/javascript" src="/js/behaviour/general.js"></script>
+    <script type="text/javascript" src="/js/jquery.ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easypiechart/jquery.easy-pie-chart.js"></script>
+    <script type="text/javascript" src="/js/jquery.nestable/jquery.nestable.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.switch/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.select2/select2.min.js"></script>
+    <script type="text/javascript" src="/js/skycons/skycons.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.slider/js/bootstrap-slider.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        //initialize the javascript
+        App.init({
+            nanoScroller: false
+        });
+        App.dashBoard();
+    });
+    </script>
+    <script type="text/javascript" src="/js/behaviour/voice-commands.js"></script>
+    <script type="text/javascript" src="/js/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.pie.js"></script>
+    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.labels.js"></script>
 </head>
 
 <body>
@@ -66,37 +98,6 @@
             @yield('content')
         </div>
     </div>
-
-    <!-- JavaScript -->
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/jquery.gritter/js/jquery.gritter.js"></script>
-    <script type="text/javascript" src="/js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
-    <script type="text/javascript" src="/js/behaviour/general.js"></script>
-    <script type="text/javascript" src="/js/jquery.ui/jquery-ui.js"></script>
-    <script type="text/javascript" src="/js/jquery.sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.easypiechart/jquery.easy-pie-chart.js"></script>
-    <script type="text/javascript" src="/js/jquery.nestable/jquery.nestable.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.switch/bootstrap-switch.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.select2/select2.min.js"></script>
-    <script type="text/javascript" src="/js/skycons/skycons.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.slider/js/bootstrap-slider.js"></script>
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-        //initialize the javascript
-        App.init({
-            nanoScroller: false
-        });
-        App.dashBoard();
-    });
-    </script>
-    <script type="text/javascript" src="/js/behaviour/voice-commands.js"></script>
-    <script type="text/javascript" src="/js/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.js"></script>
-    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.pie.js"></script>
-    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.resize.js"></script>
-    <script type="text/javascript" src="/js/jquery.flot/jquery.flot.labels.js"></script>
 
 </body>
 </html>

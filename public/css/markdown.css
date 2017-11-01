@@ -1,0 +1,71 @@
+.header {
+	color: #262626;
+}
+.markdown {
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	font-size: 15px;
+	color: #262626;
+	line-height: 1.7;
+}
+.biaotizi {
+	font-size: 15px;
+	font-weight: bold;
+}
+.neirongzi {
+	font-size: 15px;
+	line-height: 1.7;
+}
+.fengexian {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #dadada;
+}
+.liebiao {
+	font-size: 15px;
+	line-height: 1.7;
+	padding-left: 40px;
+	margin: 0;
+}
+.suojin1 {
+	text-indent:40px;
+}
+.suojin2 {
+	text-indent:80px;
+}
+.suojin3 {
+	text-indent:120px;
+}
+.suojin4 {
+	text-indent:160px;
+}
+.color-red {
+	color: #EE5037;
+}
+.color-blue {
+	color: #3078EF;
+}
+.highlight {
+	background: #f9fafa;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #EE5037;
+    margin: 5px;
+    border: 1px solid #EE5037;
+    overflow-x: auto;
+    font-size: 0.9em;
+}
+.alert {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+table thead th {
+	font-size: 15px;
+	font-weight: bold;
+}
+table tbody td {
+	font-size: 15px;
+}
+pre.prettyprint {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
