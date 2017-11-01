@@ -14,49 +14,52 @@
                 </div>
                 <div class="content markdown">
                     <div class="spacer spacer-bottom">
-                        <div class="biaotizi">这是标题字+分割线</div>
+                        <div class="biaotizi">#号开头代表标题字</div>
+                        三个减号代表分隔线---
                         <div class="fengexian"></div>
-                        这是内容字
-                        </br></br>
-                        这是1个换行</br>
-                        这是2个换行</br></br>
-                        这是3个换行</br></br></br>
-                        这是列表:
+                        1个回车代表1个换行</br>
+                        2个回车代表2个换行</br></br>
+                        3个回车代表3个换行</br></br></br>
+                        *开头表示列表
                         <ul class="liebiao">
-                            <li>前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食</li>
+                            <li>*前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食</li>
                             这里穿插了非列表内容这里穿插了非列表内容
-                            <li>推特的联合创始人比兹·斯通10年来一直吃纯素食品</li>
-                            <li>嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食</li>
-                            <li>纽瓦克市市长科里·布克已经吃素20年</li>
+                            <li>*推特的联合创始人比兹·斯通10年来一直吃纯素食品</li>
+                            <li>*嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食</li>
+                            <li>*纽瓦克市市长科里·布克已经吃素20年</li>
                         </ul>
                         </br>
                         下面是一些缩进
-                        <div class="suojin1">前面有1个缩进</div>
-                        <div class="suojin2">前面有2个缩进</div>
-                        <div class="suojin3">前面有3个缩进</div>
-                        <div class="suojin4">前面有4个缩进</div>
+                        <div class="suojin1">[tab1]1个开头代表1个缩进[/tab1]</div>
+                        <div class="suojin2">[tab2]2个开头代表2个缩进[/tab2]</div>
+                        <div class="suojin3">[tab3]3个开头代表3个缩进[/tab3]</div>
+                        <div class="suojin4">[tab4]4个开头代表4个缩进[/tab4]</div>
                         <br/>
-                        这是<span class="color-red">红色红色红色红色红色</span>字
+                        这是<span class="color-red">[red]红色红色红色红色红色[/red]</span>字
                         <br/>
-                        这是<span class="color-blue">蓝色蓝色蓝色蓝色蓝色字</span>字
+                        这是<span class="color-blue">[blue]蓝色蓝色蓝色蓝色蓝色字[/blue]</span>字
                         <br/>
-                        这是<span class="highlight">高亮abcdef高亮abcdef</span>字
+                        这是<span class="highlight">[high]高亮abcdef高亮abcdef[/high]</span>字
                         <div class="alert alert-info alert-white rounded">
                             <div class="icon"><i class="fa fa-info-circle"></i></div>
-                            这是一个重要info这是一个重要info
+                            [info]这是一个重要info这是一个重要info[/info]
                         </div>
                         <div class="alert alert-danger alert-white rounded">
                             <div class="icon"><i class="fa fa-warning"></i></div>
-                            这是一个重要warning这是一个重要warning
+                            [warn]这是一个重要warning这是一个重要warning[/warn]
                         </div>
-                        <a href="http://laravel-china.org">这是一个链接</a>
+                        <a href="http://laravel-china.org">[这是一个链接](http://laravel-china.org)</a>
                         </br>
-                        这是一张大图片</br>
+                        !(http://xxx.这是一张图片的URL地址.xxx)</br>
                         <img style="max-width:100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg"/>
-                        这是一张小图片</br>
+                        !(http://xxx.这是一张图片的URL地址.xxx)</br>
                         <img style="max-width:100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg"/>
                         </br>
                         这是一个表格</br>
+                        ||任务||时间||数量||</br>
+                        |Filet Mignon|05/14/2013|$5,230.000|</br>
+                        |Blue beer|16/08/2013|$5,230.000|</br>
+                        |T-shirts|22/12/2013|$5,230.000|</br>
                         <table>
                             <thead>
                                 <tr>
@@ -83,7 +86,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        这是一段代码块</br>
+                        [code]</br>这是一段代码块</br>这是一段代码块第二行</br>[/code]</br>
                         <pre class="prettyprint linenums">
 namespace App\Http\Controllers;
 
@@ -109,6 +112,9 @@ class WikiController extends Controller
                         </pre>
 
                         这是一个折线图</br>
+                        |||line|||</br>
+                        |1|100|</br>
+                        |2|150|</br>
                         <div class="content blue-chart">
                             <div id="zhexiantu" style="height:180px;"></div>
                         </div>
@@ -200,6 +206,9 @@ $("#zhexiantu").bind("plothover", function (event, pos, item) {
 </script>
 
                         这是一个柱状图</br>
+                        |||bar|||</br>
+                        |1|100|</br>
+                        |2|150|</br>
                         <div class="content red-chart">
                             <div id="zhuzhuangtu" style="height:180px;"></div>
                         </div>
@@ -281,6 +290,9 @@ $("#zhuzhuangtu").bind("plothover", function (event, pos, item) {
 }); 
 </script>
                         这是一个饼状图</br>
+                        |||pie|||</br>
+                        |Google|50|</br>
+                        |Twitter|8|</br>
                         <div id="bingzhuangtu" style="height:300px;"></div>
 <script type="text/javascript">
 $(document).ready(function(){
