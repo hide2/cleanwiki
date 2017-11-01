@@ -27,7 +27,7 @@ composer global require "laravel/installer"
 ——————————————
 yum install nginx -y
 vim /etc/nginx/conf.d/default.conf
-server_name 180.150.183.192;
+server_name your_ip_or_domain;
 root /var/www/pp/public;
 index index.php index.html index.htm;
     location / {
@@ -47,7 +47,7 @@ service nginx restart
 部署项目
 ——————————————
 mkdir -p /var/www
-alias dd='cd /f/projects/fancy-data/pp && echo "============ svn up" && svn up && svn info > version && echo "============ local version" && cat version && cd /f/projects/fancy-data && echo "============ zip -r pp.zip pp" && zip -r -q pp.zip pp && echo "============ scp pp.zip" && scp pp.zip root@180.150.183.192:/var/www && rm pp.zip && echo "============ unzip pp.zip & php artisan migrate" && ssh root@180.150.183.192 "cd /var/www ; unzip -o -q pp.zip ; chmod -R 777 /var/www/pp/storage ; chmod -R 777 /var/www/pp/database ; cd /var/www/pp ; php artisan migrate ; php artisan clear-compiled ; php artisan cache:clear ; php artisan config:cache ; php artisan optimize ; echo "============ remote version" ; cat version ;"'
+alias dd='cd /f/projects/fancy-data/pp && echo "============ svn up" && svn up && svn info > version && echo "============ local version" && cat version && cd /f/projects/fancy-data && echo "============ zip -r pp.zip pp" && zip -r -q pp.zip pp && echo "============ scp pp.zip" && scp pp.zip root@your_ip_or_domain:/var/www && rm pp.zip && echo "============ unzip pp.zip & php artisan migrate" && ssh root@your_ip_or_domain "cd /var/www ; unzip -o -q pp.zip ; chmod -R 777 /var/www/pp/storage ; chmod -R 777 /var/www/pp/database ; cd /var/www/pp ; php artisan migrate ; php artisan clear-compiled ; php artisan cache:clear ; php artisan config:cache ; php artisan optimize ; echo "============ remote version" ; cat version ;"'
 
 项目设置
 ——————————————
@@ -64,4 +64,4 @@ service nginx restart
 
 开始访问
 ——————————————
-http://180.150.183.192/
+http://your_ip_or_domain/
