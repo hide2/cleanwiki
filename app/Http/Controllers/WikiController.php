@@ -15,4 +15,9 @@ class WikiController extends Controller
     {
         return view('wiki');
     }
+
+    public function show()
+    {
+        return view('show');
+    }
 }
