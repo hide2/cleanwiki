@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ $title or 'Clean Wiki' }}</title>
+    <title>{{ $title or config('app.name', 'CleanWiki') }}</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
@@ -36,7 +36,7 @@
                             @if (isset($title))
                             <i class="fa fa-chevron-left"></i>
                             @endif
-                            &nbsp;{{ $title or 'Clean Wiki' }}
+                            &nbsp;{{ $title or config('app.name', 'CleanWiki') }}
                         </a>
                     </li>
                 </ul>

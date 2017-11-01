@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
-    <title><?php echo e(isset($title) ? $title : 'Clean Wiki'); ?></title>
+    <title><?php echo e(isset($title) ? $title : config('app.name', 'CleanWiki')); ?></title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
@@ -36,7 +36,7 @@
                             <?php if(isset($title)): ?>
                             <i class="fa fa-chevron-left"></i>
                             <?php endif; ?>
-                            &nbsp;<?php echo e(isset($title) ? $title : 'Clean Wiki'); ?>
+                            &nbsp;<?php echo e(isset($title) ? $title : config('app.name', 'CleanWiki')); ?>
 
                         </a>
                     </li>
