@@ -72,7 +72,7 @@
                         </a>
                     </li>
                 </ul>
-                 <ul class="nav navbar-nav navbar-right user-nav">
+                <ul class="nav navbar-nav navbar-right user-nav">
                     @guest
                     <li><a href="{{ route('login') }}">登录</a></li>
                     @else

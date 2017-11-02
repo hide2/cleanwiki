@@ -108,8 +108,7 @@ class WikiController extends Controller
     {
         return view('show');
     }
-}
-                        </pre>
+}</pre>
 
                         这是一个折线图</br>
                         |||line|||</br>
@@ -296,15 +295,15 @@ $("#zhuzhuangtu").bind("plothover", function (event, pos, item) {
                         <div id="bingzhuangtu" style="height:300px;"></div>
 <script type="text/javascript">
 $(document).ready(function(){
-  var testData3 = [
-      { label: "Google", data: 50},
-      { label: "Dribbble", data: 7},
-      { label: "Twitter", data: 8},
-      { label: "Youtube", data: 9},
-      { label: "Microsoft", data: 14},
-      { label: "Apple", data: 13},
-      { label: "Amazon", data: 10},
-      { label: "Facebook", data: 5}
+    var testData3 = [
+        { label: "Google", data: 50},
+        { label: "Dribbble", data: 7},
+        { label: "Twitter", data: 8},
+         { label: "Youtube", data: 9},
+        { label: "Microsoft", data: 14},
+        { label: "Apple", data: 13},
+        { label: "Amazon", data: 10},
+        { label: "Facebook", data: 5}
   ]; 
   $.plot('#bingzhuangtu', testData3, {
         series: {
@@ -338,7 +337,7 @@ $(document).ready(function(){
         legend: {
             show: false
         }
-      });
+    });
 });
 </script>
                     </div>
