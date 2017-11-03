@@ -7,24 +7,20 @@
 	color: #262626;
 	line-height: 1.7;
 }
-.biaotizi {
+h1 {
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: 600;
 }
-.neirongzi {
+p {
 	font-size: 15px;
 	line-height: 1.7;
 }
-.fengexian {
+hr {
 	margin-top: 6px;
 	margin-bottom: 6px;
-	border-bottom: 1px solid #dadada;
 }
-.liebiao {
-	font-size: 15px;
-	line-height: 1.7;
-	padding-left: 40px;
-	margin: 0;
+h1, ul {
+	margin-bottom: 0;
 }
 .suojin1 {
 	text-indent:40px;
@@ -38,10 +34,10 @@
 .suojin4 {
 	text-indent:160px;
 }
-.color-red {
+.red {
 	color: #EE5037;
 }
-.color-blue {
+.blue {
 	color: #3078EF;
 }
 .highlight {
@@ -68,4 +64,7 @@ table tbody td {
 pre.prettyprint {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+img {
+	max-width:100%;
 }

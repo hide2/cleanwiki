@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-
+<?php
+$parser = new \cebe\markdown\GithubMarkdown();
+$parser->enableNewlines = true;
+?>
 <link type="text/css" rel="stylesheet" href="/js/prettify/prettify.css" />
 
 <div class="cl-mcont">
@@ -14,32 +17,94 @@
                 </div>
                 <div class="content markdown">
                     <div class="spacer spacer-bottom">
-                        <div class="biaotizi">#号开头代表标题字</div>
+<?php
+$table = <<<SSS
+# 支持标签
+-------------------------
+- 标题字，以#号加空格开始
+- 删除字，以\~\~开始和\~\~号结束
+- 分隔线，3个或3个以上减号---
+- 列表，以-号加空格开始
+- 空行？
+- 缩进？
+- 颜色，< span class=red > xx< /span >，< span class=blue >xx< /span >
+- 高亮，\`xx\`
+- info？信息块，\[info\]xx\[info\]
+- warn？警告块，\[warn\]xx\[warn\]
+- 链接，\[文字\]\(url\)
+- 图片，\!\[文字\]\(图片url\)
+- 表格，如下：
+\|任务\|时间\|数量\|
+\|---\|---\|---\|
+\|Filet Mignon\|05/14/2013\|$5,230.000\|
+\|Blue beer\|16/08/2013\|$5,230.000\|
+\|T-shirts\|22/12/2013\|$5,230.000\|
+- 代码块，如下：
+\`\`\`
+namespace App\Http\Controllers;
+\`\`\`
+- 折线图，如下：
+\|\|\|line\|\|\|
+\|1\|100\|
+\|2\|150\|
+- 柱状图，如下：
+\|\|\|bar\|\|\|
+\|1\|100\|
+\|2\|150\|
+- 饼状图，如下：
+\|\|\|pie\|\|\|
+\|Google\|50\|
+\|Twitter\|8\|
+SSS;
+echo $parser->parse($table);
+?>
+<?php
+$table = <<<SSS
+# 示例
+-------------------------
+# 标题字
+这是~~删除字~~
+SSS;
+echo $parser->parse($table);
+?>
                         三个减号代表分隔线---
-                        <div class="fengexian"></div>
-                        1个回车代表1个换行</br>
-                        2个回车代表2个换行</br></br>
-                        3个回车代表3个换行</br></br></br>
-                        *开头表示列表
-                        <ul class="liebiao">
-                            <li>*前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食</li>
-                            这里穿插了非列表内容这里穿插了非列表内容
-                            <li>*推特的联合创始人比兹·斯通10年来一直吃纯素食品</li>
-                            <li>*嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食</li>
-                            <li>*纽瓦克市市长科里·布克已经吃素20年</li>
-                        </ul>
+                        <?php echo $parser->parse("---"); ?>
+<?php
+$table = <<<SSS
+  1个空行代表1个换行
+SSS;
+echo $parser->parse($table);
+?>
+                        减号加空格开头表示列表
+<?php
+$table = <<<SSS
+- 前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食
+- 推特的联合创始人比兹·斯通10年来一直吃纯素食品
+- 嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食
+- 纽瓦克市市长科里·布克已经吃素20年
+SSS;
+echo $parser->parse($table);
+?>
                         </br>
                         下面是一些缩进
-                        <div class="suojin1">[tab1]1个开头代表1个缩进[/tab1]</div>
-                        <div class="suojin2">[tab2]2个开头代表2个缩进[/tab2]</div>
-                        <div class="suojin3">[tab3]3个开头代表3个缩进[/tab3]</div>
-                        <div class="suojin4">[tab4]4个开头代表4个缩进[/tab4]</div>
-                        <br/>
-                        这是<span class="color-red">[red]红色红色红色红色红色[/red]</span>字
-                        <br/>
-                        这是<span class="color-blue">[blue]蓝色蓝色蓝色蓝色蓝色字[/blue]</span>字
-                        <br/>
-                        这是<span class="highlight">[high]高亮abcdef高亮abcdef[/high]</span>字
+                        <?php
+$table = <<<SSS
+=1个=加空格代表1个缩进
+==2个==加空格开头代表2个缩进
+===3个===加空格开头代表3个缩进
+====4个====加空格开头代表4个缩进
+
+这是<span class=red>红色红色</span>的字
+这是<span class=blue>蓝色蓝色</span>的字
+SSS;
+echo $parser->parse($table);
+?>
+<?php
+$table = <<<SSS
+这是`高亮abcdef高亮abcdef`的字
+SSS;
+echo $parser->parse($table);
+?>
                         <div class="alert alert-info alert-white rounded">
                             <div class="icon"><i class="fa fa-info-circle"></i></div>
                             [info]这是一个重要info这是一个重要info[/info]
@@ -50,44 +115,35 @@
                         </div>
                         <a href="http://laravel-china.org">[这是一个链接](http://laravel-china.org)</a>
                         </br>
-                        !(http://xxx.这是一张图片的URL地址.xxx)</br>
-                        <img style="max-width:100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg"/>
-                        !(http://xxx.这是一张图片的URL地址.xxx)</br>
-                        <img style="max-width:100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg"/>
+                        ![文字](http://xxx.这是一张图片的URL地址.xxx)</br>
+<?php
+$table = <<<SSS
+![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg)
+![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg)
+SSS;
+echo $parser->parse($table);
+?>
                         </br>
                         这是一个表格</br>
-                        ||任务||时间||数量||</br>
+                        |任务|时间|数量|</br>
+                        |---|---|---|</br>
                         |Filet Mignon|05/14/2013|$5,230.000|</br>
                         |Blue beer|16/08/2013|$5,230.000|</br>
                         |T-shirts|22/12/2013|$5,230.000|</br>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>任务</th>
-                                    <th>时间</th>
-                                    <th>数量</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Filet Mignon</td>
-                                    <td>05/14/2013</td>
-                                    <td>$5,230.000</td>
-                                </tr>
-                                <tr>
-                                    <td>Blue beer</td>
-                                    <td>16/08/2013</td>
-                                    <td>$5,230.000</td>
-                                </tr>
-                                <tr>
-                                    <td>T-shirts</td>
-                                    <td>22/12/2013</td>
-                                    <td>$5,230.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        [code]</br>这是一段代码块</br>这是一段代码块第二行</br>[/code]</br>
-                        <pre class="prettyprint linenums">
+<?php
+$table = <<<SSS
+|任务|时间|数量|
+|---|---|---|
+|Filet Mignon|05/14/2013|$5,230.000|
+|Blue beer|16/08/2013|$5,230.000|
+|T-shirts|22/12/2013|$5,230.000|
+SSS;
+echo $parser->parse($table);
+?>
+                        ```</br>这是一段代码块</br>这是一段代码块第二行</br>```</br>
+<?php
+$table = <<<SSS
+```
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -108,8 +164,11 @@ class WikiController extends Controller
     {
         return view('show');
     }
-}</pre>
-
+}
+```
+SSS;
+echo $parser->parse($table);
+?>
                         这是一个折线图</br>
                         |||line|||</br>
                         |1|100|</br>
