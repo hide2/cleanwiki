@@ -2,6 +2,7 @@
 
 @section('content')
 <?php
+$title = 'Demo';
 $Parsedown = new Parsedown();
 ?>
 <link type="text/css" rel="stylesheet" href="/js/prettify/prettify.css" />

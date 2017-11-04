@@ -11,12 +11,13 @@
 |
 */
 
-Route::get('/', 'WikiController@index')->name('wiki');
+Route::get('/', 'WikiController@index');
+Route::get('/wiki/{url}', 'WikiController@show');
+Route::get('/new', 'WikiController@new');
+
 Route::get('/demo', function () {
     return view('demo');
 });
-Route::get('/page/{url}', 'WikiController@show')->name('show');
-
 Route::get('/out', function () {
     return view('out');
 });
