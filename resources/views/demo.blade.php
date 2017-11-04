@@ -2,8 +2,7 @@
 
 @section('content')
 <?php
-$parser = new \cebe\markdown\GithubMarkdown();
-$parser->enableNewlines = true;
+$Parsedown = new Parsedown();
 ?>
 <link type="text/css" rel="stylesheet" href="/js/prettify/prettify.css" />
 
@@ -19,7 +18,7 @@ $parser->enableNewlines = true;
                     <div class="spacer spacer-bottom">
 <?php
 $table = <<<SSS
-# 支持标签
+# 【语法】
 -------------------------
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
@@ -29,8 +28,6 @@ $table = <<<SSS
 - 缩进？
 - 颜色，< span class=red > xx< /span >，< span class=blue >xx< /span >
 - 高亮，\`xx\`
-- info？信息块，\[info\]xx\[info\]
-- warn？警告块，\[warn\]xx\[warn\]
 - 链接，\[文字\]\(url\)
 - 图片，\!\[文字\]\(图片url\)
 - 表格，如下：
@@ -43,6 +40,8 @@ $table = <<<SSS
 \`\`\`
 namespace App\Http\Controllers;
 \`\`\`
+- info？信息块，\[info\]xx\[info\]
+- warn？警告块，\[warn\]xx\[warn\]
 - 折线图，如下：
 \|\|\|line\|\|\|
 \|1\|100\|
@@ -56,98 +55,50 @@ namespace App\Http\Controllers;
 \|Google\|50\|
 \|Twitter\|8\|
 SSS;
-echo $parser->parse($table);
+echo $Parsedown->text($table);
 ?>
+
 <?php
-$table = <<<SSS
-# 示例
+$md = <<<SSS
+# 【示例】
 -------------------------
+
 # 标题字
-这是~~删除字~~
-SSS;
-echo $parser->parse($table);
-?>
-                        三个减号代表分隔线---
-                        <?php echo $parser->parse("---"); ?>
-<?php
-$table = <<<SSS
-  1个空行代表1个换行
-SSS;
-echo $parser->parse($table);
-?>
-                        减号加空格开头表示列表
-<?php
-$table = <<<SSS
+
+~~删除字~~
+
+分隔线：
+
+-------------------------
+
+列表：
 - 前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食
 - 推特的联合创始人比兹·斯通10年来一直吃纯素食品
 - 嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食
-- 纽瓦克市市长科里·布克已经吃素20年
-SSS;
-echo $parser->parse($table);
-?>
-                        </br>
-                        下面是一些缩进
-                        <?php
-$table = <<<SSS
-=1个=加空格代表1个缩进
-==2个==加空格开头代表2个缩进
-===3个===加空格开头代表3个缩进
-====4个====加空格开头代表4个缩进
 
-这是<span class=red>红色红色</span>的字
-这是<span class=blue>蓝色蓝色</span>的字
-SSS;
-echo $parser->parse($table);
-?>
-<?php
-$table = <<<SSS
-这是`高亮abcdef高亮abcdef`的字
-SSS;
-echo $parser->parse($table);
-?>
-                        <div class="alert alert-info alert-white rounded">
-                            <div class="icon"><i class="fa fa-info-circle"></i></div>
-                            [info]这是一个重要info这是一个重要info[/info]
-                        </div>
-                        <div class="alert alert-danger alert-white rounded">
-                            <div class="icon"><i class="fa fa-warning"></i></div>
-                            [warn]这是一个重要warning这是一个重要warning[/warn]
-                        </div>
-                        <a href="http://laravel-china.org">[这是一个链接](http://laravel-china.org)</a>
-                        </br>
-                        ![文字](http://xxx.这是一张图片的URL地址.xxx)</br>
-<?php
-$table = <<<SSS
+空行？
+
+缩进？
+
+这是<span class=red>红色</span>字，这是<span class=blue>蓝色</span>字
+
+这是`高亮`字
+
+[这是一个链接](http://laravel.com)
+
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg)
+
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg)
-SSS;
-echo $parser->parse($table);
-?>
-                        </br>
-                        这是一个表格</br>
-                        |任务|时间|数量|</br>
-                        |---|---|---|</br>
-                        |Filet Mignon|05/14/2013|$5,230.000|</br>
-                        |Blue beer|16/08/2013|$5,230.000|</br>
-                        |T-shirts|22/12/2013|$5,230.000|</br>
-<?php
-$table = <<<SSS
+
 |任务|时间|数量|
 |---|---|---|
 |Filet Mignon|05/14/2013|$5,230.000|
 |Blue beer|16/08/2013|$5,230.000|
 |T-shirts|22/12/2013|$5,230.000|
-SSS;
-echo $parser->parse($table);
-?>
-                        ```</br>这是一段代码块</br>这是一段代码块第二行</br>```</br>
-<?php
-$table = <<<SSS
+
 ```
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 class WikiController extends Controller
 {
     /**
@@ -159,16 +110,45 @@ class WikiController extends Controller
     {
         return view('wiki');
     }
-
     public function show()
     {
         return view('show');
     }
 }
 ```
+
+iii这是一个信息块iii
+
+~~warn这是一个警告块~warn
+
+- 折线图，如下：
+\|\|\|line\|\|\|
+\|1\|100\|
+\|2\|150\|
+
+- 柱状图，如下：
+\|\|\|bar\|\|\|
+\|1\|100\|
+\|2\|150\|
+
+- 饼状图，如下：
+\|\|\|pie\|\|\|
+\|Google\|50\|
+\|Twitter\|8\|
 SSS;
-echo $parser->parse($table);
+echo $Parsedown->text($md);
 ?>
+
+
+                        <div class="alert alert-info alert-white rounded">
+                            <div class="icon"><i class="fa fa-info-circle"></i></div>
+                            [info]这是一个重要info这是一个重要info[/info]
+                        </div>
+                        <div class="alert alert-danger alert-white rounded">
+                            <div class="icon"><i class="fa fa-warning"></i></div>
+                            [warn]这是一个重要warning这是一个重要warning[/warn]
+                        </div>
+                        
                         这是一个折线图</br>
                         |||line|||</br>
                         |1|100|</br>

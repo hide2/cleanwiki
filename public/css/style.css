@@ -220,8 +220,8 @@ pre {
 /*navigation*/
 .navbar {
   border: 0;
-  background-color: #0f88eb;
-  color: #FFF;
+  background-color: #fff;
+  color: #262626  ;
   padding-left: 10px;
   padding-right: 25px;
 }
@@ -229,7 +229,7 @@ pre {
   /*padding-left: 35px;*/
   text-align: left;
   width: 400px;
-  color: #FFF;
+  color: #262626;
   /*background: url(../images/logo.png) no-repeat 0 11px;*/
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   font-weight: 300;
@@ -239,19 +239,19 @@ pre {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #FFF;
+  color: #262626;
 }
 .navbar-default .navbar-brand:hover {
-  color: #FFF;
+  color: #262626;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
   background-color: #36a3ff;
-  color: #fff;
+  color: #262626;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #262626;
 }
 .navbar-default .navbar-nav > li.button {
   padding: 10px 6px;
@@ -478,7 +478,7 @@ pre {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  color: #FFF;
+  color: #3078EF;
 }
 .navbar-default .navbar-toggle {
   outline: none;

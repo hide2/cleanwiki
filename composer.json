@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "cebe/markdown": "^1.1",
         "fideloper/proxy": "~3.3",
         "jenssegers/agent": "^2.5",
         "laravel/framework": "5.5.*",
