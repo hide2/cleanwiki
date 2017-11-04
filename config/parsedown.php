@@ -80,6 +80,7 @@ class Parsedown
     #
 
     protected $BlockTypes = array(
+        '=' => array('Mytag'),
         '#' => array('Header'),
         '*' => array('Rule', 'List'),
         '+' => array('List'),
@@ -96,7 +97,7 @@ class Parsedown
         '9' => array('List'),
         ':' => array('Table'),
         '<' => array('Comment', 'Markup'),
-        '=' => array('SetextHeader'),
+        // '=' => array('SetextHeader'),
         '>' => array('Quote'),
         '[' => array('Reference'),
         '_' => array('Rule'),
@@ -465,6 +466,253 @@ class Parsedown
         $Block['element']['text']['text'] = $text;
 
         return $Block;
+    }
+
+    #
+    # Mytag
+
+    protected function blockMytag($Line)
+    {
+        if (isset($Line['text'][1]))
+        {
+            // 信息块
+            if (preg_match('/=info/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=info');
+                $text = '<div class="alert alert-info alert-white rounded"><div class="icon"><i class="fa fa-info-circle"></i></div>'.$text.'</div>';
+            }
+            
+            // 警告块
+            if (preg_match('/=warn/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=info');
+                $text = '<div class="alert alert-danger alert-white rounded"><div class="icon"><i class="fa fa-warning"></i></div>'.$text.'</div>';
+            }
+
+            // 折线图
+            if (preg_match('/=line/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=line');
+                $text = explode("|", $text);
+                $data = [];
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $data[$v] = $text[$k+1];
+                    }
+                }
+                $tt = <<<SSS
+<div class="content blue-chart"><div id="zhexiantu" style="height:180px;"></div></div>
+<script type="text/javascript">
+$(document).ready(function(){
+    var lineData = [
+SSS;
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $xy = '['.$v.','.$text[$k+1].'],';
+                        $tt = $tt.$xy;
+                    }
+                }
+                $tt = $tt.<<<SSS
+];$.plot($("#zhexiantu"), [{data: lineData,}], {
+    series: {
+        lines: {
+            show: true,
+            lineWidth: 2, 
+            fill: true,
+            fillColor: {
+                colors: [{
+                    opacity: 0.2
+                }, {
+                    opacity: 0.01
+                }]
+            } 
+        },
+        points: {
+            show: true
+        },
+    },
+    grid: {
+        labelMargin: 10,
+        axisMargin: 500,
+        hoverable: true,
+        clickable: true,
+        tickColor: "rgba(255,255,255,0.22)",
+        borderWidth: 0
+    },
+    colors: ["#FFFFFF", "#4A8CF7", "#52e136"],
+    xaxis: {
+        tickDecimals: 0
+    },
+    yaxis: {
+        tickDecimals: 0
+    }
+    });
+});
+var previousPoint = null;
+$("#zhexiantu").bind("plothover", function (event, pos, item) {
+    if (item) {
+        if (previousPoint != item.dataIndex) {
+            previousPoint = item.dataIndex;
+            $("#tooltip").remove();
+            var x = item.datapoint[0],
+            y = item.datapoint[1];
+            showTooltip(item.pageX, item.pageY, x + " = " + y);
+        }
+    } else {
+        $("#tooltip").remove();
+        previousPoint = null;
+    }
+}); 
+</script>
+SSS;
+                $text = $tt;
+            }
+
+            // 柱状图
+            if (preg_match('/=bar/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=bar');
+                $text = explode("|", $text);
+                $data = [];
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $data[$v] = $text[$k+1];
+                    }
+                }
+                $tt = <<<SSS
+<div class="content red-chart"><div id="zhuzhuangtu" style="height:180px;"></div></div>
+<script type="text/javascript">
+$(document).ready(function(){
+    var barData = [
+SSS;
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $xy = '['.$v.','.$text[$k+1].'],';
+                        $tt = $tt.$xy;
+                    }
+                }
+                $tt = $tt.<<<SSS
+];$.plot($("#zhuzhuangtu"), [{data: barData,}], {
+    series: {
+        bars: {
+            show: true,
+            barWidth: 0.6,
+            lineWidth: 0,
+            fill: true,
+            hoverable: true,
+            fillColor: {
+                colors: [{
+                    opacity: 1
+                }, {
+                    opacity: 1
+                }]
+            } 
+        },
+    },
+    grid: {
+        labelMargin: 10,
+        axisMargin: 500,
+        hoverable: true,
+        clickable: true,
+        tickColor: "rgba(0,0,0,0.15)",
+        borderWidth: 0
+    },
+    colors: ["#FFFFFF", "#FFFFFF", "#52e136"],
+    xaxis: {
+        tickDecimals: 0
+    },
+    yaxis: {
+        tickDecimals: 0
+    }
+    });
+});
+var previousPoint = null;
+$("#zhuzhuangtu").bind("plothover", function (event, pos, item) {
+    if (item) {
+        if (previousPoint != item.dataIndex) {
+            previousPoint = item.dataIndex;
+            $("#tooltip").remove();
+            var x = item.datapoint[0],
+            y = item.datapoint[1];
+            showTooltip(item.pageX, item.pageY, x + " = " + y);
+        }
+    } else {
+        $("#tooltip").remove();
+        previousPoint = null;
+    }
+}); 
+</script>
+SSS;
+                $text = $tt;
+            }
+
+            // 饼状图
+            if (preg_match('/=pie/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=pie');
+                $text = explode("|", $text);
+                $data = [];
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $data[$v] = $text[$k+1];
+                    }
+                }
+                $tt = <<<SSS
+<div id="bingzhuangtu" style="height:300px;"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+    var pieData = [
+SSS;
+                foreach ($text as $k => $v) {
+                    if($k%2 === 0) {
+                        $xy = '{label:"'.$v.'",data:'.$text[$k+1].'},';
+                        $tt = $tt.$xy;
+                    }
+                }
+                $tt = $tt.<<<SSS
+];$.plot('#bingzhuangtu', pieData, {
+    series: {
+        pie: {
+            show: true,
+            innerRadius: 0.27,
+            shadow:{
+                top: 5,
+                left: 15,
+                alpha:0.3
+            },
+            stroke:{
+                width:0
+            },
+            label: {
+                show: true,
+                formatter: function (label, series) {
+                    return '<div style="font-size:12px;text-align:center;padding:2px;color:#333;">' + label + '</div>';
+                }
+            },
+            highlight:{
+                opacity: 0.08
+            }
+        }
+    },
+    grid: {
+        hoverable: true,
+        clickable: true
+    },
+    colors: ["#5793f3", "#dd4d79", "#bd3b47","#dd4444","#fd9c35","#fec42c","#d4df5a","#5578c2"],
+    legend: {
+        show: false
+    }
+    });
+});
+</script>
+SSS;
+                $text = $tt;
+            }
+
+            $Block = array(
+                'element' => array(
+                    'name' => 'rawhtml',
+                    'text' => $text,
+                ),
+            );
+
+            return $Block;
+        }
     }
 
     #
@@ -1407,6 +1655,9 @@ class Parsedown
 
     protected function element(array $Element)
     {
+        if ($Element['name'] === 'rawhtml') {
+            return $this->rawhtml($Element);
+        }
         $markup = '<'.$Element['name'];
 
         if (isset($Element['attributes']))
@@ -1441,6 +1692,17 @@ class Parsedown
         {
             $markup .= ' />';
         }
+
+        return $markup;
+    }
+
+    #
+    # Handlers
+    #
+
+    protected function rawhtml(array $Element)
+    {
+        $markup = $Element['text'];
 
         return $markup;
     }
