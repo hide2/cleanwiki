@@ -5,8 +5,7 @@ deploy: https://github.com/hide2/cleanwiki/blob/master/deploy.txt
 mailto: 23771066@qq.com
 
 
-# 【语法】
--------------------------
+# 语法
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
@@ -31,6 +30,5 @@ namespace App\Http\Controllers;
 - 柱状图，=bar 1\|100\|2\|150
 - 饼状图，=pie Google\|100\|Twitter\|150
 
-![alt text][screenshot]
-
-[screenshot]: demo.png "Screenshot of demo page."
+# Demo
+![Demo](demo.png)
