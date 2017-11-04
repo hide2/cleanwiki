@@ -2,6 +2,8 @@
 /public/hot
 /storage/framework/sessions/*
 /storage/framework/views/*
+/storage/framework/cache/*
+/storage/framework/data/*
 /storage/logs/*
 /vendor
 /.idea
