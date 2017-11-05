@@ -42,14 +42,15 @@ h1, ul {
 	color: #3078EF;
 }
 .highlight {
-	background: #f9fafa;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	background: #EE5037;
     padding: 3px 6px;
     border-radius: 3px;
-    color: #EE5037;
+    color: #f9fafa;
     margin: 5px;
     border: 1px solid #EE5037;
     overflow-x: auto;
-    font-size: 0.9em;
+    font-size: 15px;
 }
 .alert {
 	margin-top: 10px;

@@ -475,6 +475,18 @@ class Parsedown
     {
         if (isset($Line['text'][1]))
         {
+            // 红色
+            if (preg_match('/=red/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=red');
+                $text = '<span class="red">'.$text.'</span>';
+            }
+
+            // 蓝色
+            if (preg_match('/=blue/', $Line['text'], $matches)) {
+                $text = trim($Line['text'], '=blue');
+                $text = '<span class="blue">'.$text.'</span>';
+            }
+
             // 信息块
             if (preg_match('/=info/', $Line['text'], $matches)) {
                 $text = trim($Line['text'], '=info');
@@ -483,7 +495,7 @@ class Parsedown
             
             // 警告块
             if (preg_match('/=warn/', $Line['text'], $matches)) {
-                $text = trim($Line['text'], '=info');
+                $text = trim($Line['text'], '=warn');
                 $text = '<div class="alert alert-danger alert-white rounded"><div class="icon"><i class="fa fa-warning"></i></div>'.$text.'</div>';
             }
 

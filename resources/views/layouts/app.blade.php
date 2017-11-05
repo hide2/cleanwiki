@@ -68,7 +68,7 @@
                             @if (isset($title))
                             <i class="fa fa-chevron-left"></i>
                             @endif
-                            &nbsp;{{ $title or config('app.name', 'CleanWiki') }}
+                            <span>&nbsp;{{ $title or config('app.name', 'CleanWiki') }}</span>
                         </a>
                     </li>
                 </ul>

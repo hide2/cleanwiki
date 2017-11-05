@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Wiki;
 
@@ -19,8 +20,9 @@ class WikiController extends Controller
 
     public function show($url)
     {
-        $wiki = Wiki::where('url', $url);
-        return view('show', ['wiki'=>$wiki]);
+        $wiki = Wiki::where('url', $url)->first();
+        $title = $wiki->title;
+        return view('show', ['wiki'=>$wiki, 'title'=>$title]);
     }
 
     protected function validator(array $data)
@@ -36,13 +38,13 @@ class WikiController extends Controller
         return view('new');
     }
 
-    protected function create(array $data)
+    protected function create()
     {
         return Wiki::create([
-            'title' => $data['title'],
-            'content' => $data['content'],
-            'tag' => $data['tag'],
-            'url' => $data['url'],
+            'title' => $_POST['title'],
+            'content' => $_POST['content'],
+            'tag' => $_POST['tag'],
+            'url' => $_POST['url'],
             'user_id' => Auth::id(),
         ]);
     }

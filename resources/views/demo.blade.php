@@ -41,7 +41,7 @@ $table = <<<SSS
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
 - 列表，以-号加空格开始
-- 颜色，< span class=red > xx< /span >，< span class=blue >xx< /span >
+- 颜色，=red xx，=blue xx
 - 高亮，\`xx\`
 - 链接，\[文字\]\(url\)
 - 图片，\!\[文字\]\(图片url\)
@@ -82,7 +82,9 @@ $md = <<<SSS
 - 推特的联合创始人比兹·斯通10年来一直吃纯素食品
 - 嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食
 
-这是<span class=red>红色</span>字，这是<span class=blue>蓝色</span>字
+=red 这是红色字
+
+=blue 这是蓝色字
 
 这是`高亮`字
 

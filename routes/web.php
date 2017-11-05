@@ -14,6 +14,7 @@
 Route::get('/', 'WikiController@index');
 Route::get('/wiki/{url}', 'WikiController@show');
 Route::get('/new', 'WikiController@new');
+Route::post('/create', 'WikiController@create');
 
 Route::get('/demo', function () {
     return view('demo');
