@@ -1,7 +1,4 @@
 <?php
-// encoding
-$encod = iconv_get_encoding("internal_encoding");
-
 // router
 require __DIR__.'/_router.php';
 $router = new \Bramus\Router\Router();
