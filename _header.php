@@ -2,7 +2,7 @@
 // markdown
 require __DIR__.'/_parsedown.php';
 $Parsedown = new Parsedown();
-$_author = 'hide2';
+$_author = '犀利哥';
 $_email = '23771066@qq.com';
 ?>
 
@@ -67,31 +67,16 @@ $_email = '23771066@qq.com';
 <body>
 
     <!-- Fixed top navbar -->
-    <div id="head-nav" class="navbar navbar-default navbar-fixed-top">
+    <!-- <div id="head-nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav user-nav">
-                    <li>
-                        <a class="navbar-brand" href="/">
-                            <i class="fa fa-chevron-left"></i>
-                            <span><?php echo(isset($title) ? $title : '无标题'); ?></span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right user-nav">
-                    <li>
-                        <?php
-                        if (isset($author) && isset($email)) {
-                            echo '<a href="mailto:'.$email.'">'.$author.'</a>';
-                        } else {
-                            echo '<a href="mailto:'.$_email.'">'.$_author.'</a>';
-                        }
-                        ?>
-                    </li>
-                </ul>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <i class="fa fa-chevron-left"></i>
+                    <span><?php echo(isset($title) ? $title : '无标题'); ?></span>
+                </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Content -->
     <div id="cl-wrapper" class="fixed-menu">
@@ -116,12 +101,8 @@ function showTooltip(x, y, contents) {
     } 
 </script>
 <div class="cl-mcont">
-
-    <div class="row">
-        <div class="col-sm-7 col-md-7" style="margin-left:21%">
-            <div class="block-flat">
-                <div class="header">                            
-                    <h3><?php echo(isset($title) ? $title : '无标题'); ?></h3>
-                </div>
-                <div class="content markdown">
-                    <div class="spacer spacer-bottom">
+    <div class="block-flat">
+        <div class="header">                            
+            <h3><a class="header_a" href="/"><?php echo(isset($title) ? $title : '无标题'); ?></a></h3>
+        </div>
+        <div class="content markdown">

@@ -1,7 +1,7 @@
 <?php
-/////////////////////////// 设置文档标题
+/////////////////////////// 设置文档标题、作者、email
 $title = 'PHP+Laravel培训';
-$author = 'hide2';
+$author = '犀利哥';
 $email = '23771066@qq.com';
 
 require __DIR__.'/../_header.php';

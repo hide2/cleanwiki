@@ -1479,7 +1479,8 @@ var App = function () {
       var offset = 220;
       var duration = 500;
       var button = $('<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>');
-      button.appendTo("body");
+      // button.appendTo("body");
+      $("#cl-wrapper").append(button)
       
       jQuery(window).scroll(function() {
         if (jQuery(this).scrollTop() > offset) {

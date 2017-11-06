@@ -34,6 +34,3 @@ namespace App\Http\Controllers;
 - 折线图，=line 1\|100\|2\|150
 - 柱状图，=bar 1\|100\|2\|150
 - 饼状图，=pie Google\|100\|Twitter\|150
-
-# Demo
-![Demo](demo.png)
