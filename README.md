@@ -4,8 +4,13 @@ demo: http://cleanwiki.top
 
 mailto: 23771066@qq.com
 
+# 用法
+content目录下直接新增.php文件，对应访问URL，比如：
+- content\demo.php，对应访问URL：http://your_host/demo
+- content\php-laravel.php，对应访问URL：http://your_host/php-laravel
 
-# [语法]
+# 语法
+使用markdown语法写内容：
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
