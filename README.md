@@ -5,12 +5,13 @@ demo: https://cleanwiki.top
 mailto: 23771066@qq.com
 
 
-# 语法
+# 【语法】
+-------------------------
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
 - 列表，以-号加空格开始
-- 颜色，< span class=red > xx< /span >，< span class=blue >xx< /span >
+- 颜色，=red xx，=blue xx
 - 高亮，\`xx\`
 - 链接，\[文字\]\(url\)
 - 图片，\!\[文字\]\(图片url\)
