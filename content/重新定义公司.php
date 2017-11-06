@@ -10,11 +10,11 @@ require __DIR__.'/../_header.php';
 $md = <<<SSS
 # 封面
 -------------------------
-![封面](http://note.youdao.com/yws/public/resource/6b7d48889171707aef65f09a6ed3ce29/xmlnote/85F6D4E22D7446DF951054C9A8B6C24E/14916)
+![封面](http://img3m2.ddimg.cn/62/17/1087366562-1_u_6.jpg)
 
 # 作者
 -------------------------
-![作者](http://note.youdao.com/yws/public/resource/6b7d48889171707aef65f09a6ed3ce29/xmlnote/D8CE2D5EC9FA494CAE7F919715849C0A/14929)
+![作者](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509985549101&di=02f9ff152d18827e4f3d9c4e440d84a5&imgtype=0&src=http%3A%2F%2Fwww.edu-hb.com%2FUpload%2FNewsImg%2F201304%2F22%2F130422125546la2fs.jpg)
 
 埃里克·施密特（Eric Emerson Schmidt），1955年出生，Google前CEO、著名电脑工程师，现任Alphabet公司（Google 母公司）董事长，他拥有普林斯顿大学电子工程师学士学位，同时有加州大学伯克利分校的计算机科学硕士学位和博士学位。
 埃里克·施密特于2001年到2011年四月十年间担任 Google CEO，2001年由Google 创始人拉里·佩奇（Larry Page）和谢尔盖·布林（Sergey Brin）从 Novell 公司聘请其担任这一职务，此前他在 Novell 公司任董事长兼首席执行官，负责公司的战略规划、管理和技术发展。也曾是苹果公司董事会成员。同时他亦为卡内基美隆大学和普林斯顿大学理事会托管者，并亦是程式编译器lex的共同作者。
