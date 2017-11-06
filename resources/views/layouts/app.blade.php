@@ -64,7 +64,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav user-nav">
                     <li>
-                         <a class="navbar-brand" href="/">
+                        <a class="navbar-brand" href="/">
                             @if (isset($title))
                             <i class="fa fa-chevron-left"></i>
                             @endif

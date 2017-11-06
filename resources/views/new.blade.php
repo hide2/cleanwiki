@@ -92,7 +92,7 @@ function show() {
     $.post("/create", {'_token':'{{csrf_token()}}', 'id':id, 'title':title, 'content':content, 'tag':tag, 'url':url}, function(result){
       $("title").html(title);
       $(".navbar-brand span").html(title);
-      alert(result);
+      dump(result);
     });
   }
 }
