@@ -1,12 +1,11 @@
-# CleanWiki - A beautiful wiki in PHP/Laravel
+# CleanWiki - A clean & beautiful wiki in PHP
 
 demo: http://cleanwiki.top
 
 mailto: 23771066@qq.com
 
 
-# 【语法】
--------------------------
+# [语法]
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
