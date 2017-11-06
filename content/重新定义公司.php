@@ -1,6 +1,6 @@
 <?php
 /////////////////////////// 设置文档标题、作者、email
-$title = '001.《重新定义公司》Eric Schmidt';
+$title = '《重新定义公司》Eric Schmidt';
 $author = '犀利哥';
 $email = '23771066@qq.com';
 

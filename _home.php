@@ -1,4 +1,7 @@
 <?php
+// encoding
+$encod = iconv_get_encoding("internal_encoding");
+
 /////////////////////////// 设置文档标题
 $title = '索引';
 
@@ -11,7 +14,10 @@ $file=scandir($dir);
 $md = '';
 foreach ($file as $f) {
     if (preg_match('/\.php/', $f)) {
-    	$f = explode('.php', $f)[0];
+        $f = explode('.php', $f)[0];
+        if ($encod !== 'UTF-8') {
+            $f = iconv('gbk', 'utf-8', $f);
+        }
         $f = trim($f);
         $md = $md."- [".$f."](http://".$_SERVER["HTTP_HOST"]."/".$f.")\r\n";
     }
