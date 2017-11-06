@@ -1,6 +1,6 @@
 # CleanWiki - A beautiful wiki in PHP/Laravel
 
-demo: https://cleanwiki.top
+demo: http://cleanwiki.top
 
 mailto: 23771066@qq.com
 
