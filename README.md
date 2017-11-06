@@ -1,6 +1,6 @@
 # CleanWiki - A beautiful wiki in PHP/Laravel
 
-deploy: https://github.com/hide2/cleanwiki/blob/master/deploy.txt
+demo: https://cleanwiki.top
 
 mailto: 23771066@qq.com
 
