@@ -13,6 +13,7 @@ $syntax = <<<SSS
 - 标题字，以#号加空格开始
 - 删除字，以\~\~开始和\~\~号结束
 - 分隔线，3个或3个以上减号---
+- 换行，使用两个空格的空行
 - 列表，以-号加空格开始
 - 颜色，=red xx，=blue xx
 - 高亮，\`xx\`
@@ -46,15 +47,23 @@ $md = <<<SSS
 分隔线：
 
 -------------------------
+下面有1个换行
+  
+下面有3个换行
+  
+  
+  
 列表：
 - 前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食
 - 推特的联合创始人比兹·斯通10年来一直吃纯素食品
 - 嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食
 
+  
 =red 这是红色字
 =blue 这是蓝色字
 这是`高亮`字
 [这是一个链接](http://laravel.com)
+  
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg)
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg)
 
