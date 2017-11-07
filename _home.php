@@ -9,9 +9,10 @@ require __DIR__.'/_header.php';
 
 /////////////////////////// 文档内容开始
 
-$dir=__DIR__.'/content';
-$file=scandir($dir);
-$md = '';
+// 列出content目录所有文件
+// $dir=__DIR__.'/content';
+// $file=scandir($dir);
+// $md = '';
 // foreach ($file as $f) {
 //     if (preg_match('/\.php/', $f)) {
 //         $f = explode('.php', $f)[0];
@@ -28,6 +29,7 @@ $md = <<<SSS
     - [PHP-Laravel](/PHP-Laravel)
 - 读书笔记
     - [重新定义公司](/重新定义公司)
+    - [重新定义团队](/重新定义团队)
 SSS;
 echo $Parsedown->text($md);
 

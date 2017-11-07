@@ -41,30 +41,21 @@ echo $Parsedown->text($syntax);
 $md = <<<SSS
 # 【示例】
 -------------------------
-
 # 标题字
-
 ~~删除字~~
-
 分隔线：
 
 -------------------------
-
 列表：
 - 前总统比尔·克林顿在2004年的健康危机之后开始了无肉饮食
 - 推特的联合创始人比兹·斯通10年来一直吃纯素食品
 - 嘻哈音乐巨头拉塞尔·西蒙斯由于健康和环境的原因而放弃肉食
 
 =red 这是红色字
-
 =blue 这是蓝色字
-
 这是`高亮`字
-
 [这是一个链接](http://laravel.com)
-
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509548418533&di=0c28949757fffb23498cd6f0d5201edf&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9f2f070828381f305d95e4e5a3014c086f06f0ea.jpg)
-
 ![文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510143505&di=de3a7504ae2084b33f13df4823fffb84&imgtype=jpg&er=1&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170508%2F3906321494233338.jpg)
 
 |任务|时间|数量|
@@ -93,16 +84,12 @@ class WikiController extends Controller
     }
 }
 ```
-
 =info 这是一个信息块
 =warn 这是一个警告块
-
 - 折线图，如下：
 =line 1|100|2|150|3|180|4|120|5|300|6|200|7|180|8|150
-
 - 柱状图，如下：
 =bar 1|100|2|150|3|180|4|120|5|300|6|200|7|180|8|150
-
 - 饼状图，如下：
 =pie Google|38|Twitter|18|Facebook|14|Apple|30
 

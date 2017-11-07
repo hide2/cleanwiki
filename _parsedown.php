@@ -28,6 +28,9 @@ class Parsedown
 
         # standardize line breaks
         $text = str_replace(array("\r\n", "\r"), "\n", $text);
+        
+        // 两个空格的空行
+        $text = str_replace("  \n", "&nbsp;&nbsp;\n", $text);
 
         # remove surrounding line breaks
         $text = trim($text, "\n");
@@ -55,7 +58,7 @@ class Parsedown
         return $this;
     }
 
-    protected $breaksEnabled;
+    protected $breaksEnabled = true;
 
     function setMarkupEscaped($markupEscaped)
     {
@@ -128,7 +131,6 @@ class Parsedown
                 {
                     $CurrentBlock['interrupted'] = true;
                 }
-
                 continue;
             }
 
@@ -271,7 +273,6 @@ class Parsedown
             $markup .= "\n";
             $markup .= isset($Block['markup']) ? $Block['markup'] : $this->element($Block['element']);
         }
-
         $markup .= "\n";
 
         # ~
