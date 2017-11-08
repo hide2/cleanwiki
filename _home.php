@@ -3,7 +3,7 @@
 $encod = iconv_get_encoding("internal_encoding");
 
 /////////////////////////// 设置文档标题
-$title = '索引';
+$title = '思想，是人一生中最大的幸福';
 
 require __DIR__.'/_header.php';
 
@@ -33,6 +33,8 @@ $md = <<<SSS
     - [助推](/助推)
     - [爆裂](/爆裂)
     - [精益数据分析](/精益数据分析)
+- 记忆碎片
+    - [七十七天](/七十七天)
 SSS;
 echo $Parsedown->text($md);
 
