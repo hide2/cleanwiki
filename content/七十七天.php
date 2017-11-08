@@ -8,12 +8,10 @@ require __DIR__.'/../_header.php';
 
 /////////////////////////// 文档内容开始
 $md = <<<SSS
-![七十七天](https://img3.doubanio.com/view/photo/raw/public/p2500428810.jpg)
-  
-<video style="width: 100%" tabindex="-1" preload="auto" autoplay="">
-<source src="http://vt1.doubanio.com/201711081141/2c4561d5777636f1267cf836a2f447d3/view/movie/M/302230166.mp4" title="" type="video/mp4">
-</video>
-  
+![七十七天](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510123996447&di=271c533545c7993b555039e80963cdb5&imgtype=0&src=http%3A%2F%2Fcimage.tianjimedia.com%2FuploadImages%2FthirdImages%2F2017%2F292%2F8SLZ5AHAY9G1.jpg)
+![七十七天](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510124116172&di=a80ddd37c789669aa5ffdad40b262d40&imgtype=0&src=http%3A%2F%2Fnpic7.fangtoo.com%2Fcn%2Fzixun%2Fzh-chs%2F2017-10%2F26%2F353393-201710261309344519.jpg)
+<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=p0565rg53v9&auto=0" allowFullScreen="true" quality="high" width="100%" height="600" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
 浩瀚无垠的宇宙里，在短短的一生中，鼓起勇气，做自己想做的事，成为想成为的自己。
   
 2017.11.8
