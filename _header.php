@@ -12,7 +12,7 @@ $_email = '23771066@qq.com';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="shortcut icon" href="/favicon.ico" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="pLFGpYreR5ZQl3ci21T475pkiDETpKoqIcGlHwVk">
 
@@ -28,9 +28,9 @@ $_email = '23771066@qq.com';
     <link rel="stylesheet" type="text/css" href="/js/jquery.select2/select2.css" />
     <link rel="stylesheet" type="text/css" href="/js/bootstrap.slider/css/slider.css" />
     <!-- Custom CSS -->
-    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- Markdown CSS -->
-    <link href="/css/markdown.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/markdown.css" />
 
     <!-- JavaScript -->
     <script type="text/javascript" src="/js/jquery.js"></script>
