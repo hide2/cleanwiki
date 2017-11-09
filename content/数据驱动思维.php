@@ -10,7 +10,7 @@ require __DIR__.'/../_header.php';
 $md = <<<SSS
 # 什么是数据驱动？
 -------------------------
-Data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience
+=blue Data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience
 
 # 为什么要数据驱动？
 -------------------------
@@ -21,6 +21,8 @@ Data-driven means that progress in an activity is compelled by data, rather than
     - 电气时代
     - 信息时代
     - 人工智能时代（AI革命背后的三驾马车：深度学习、强大算力、大数据）
+
+![AI](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510839669&di=eabc0c80f9e7c22e36aa1f2e06754205&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.im170.com%2Fzb_users%2Fupload%2F2017%2F05%2F20170528184816_576487947.jpg)
 
 # 数据驱动成就了哪些公司？
 -------------------------
@@ -69,6 +71,8 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
     - 明年是否可以进军海外市场？
     - 下半年是否可以立项吃鸡项目？
 
+![吃鸡](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245163324&di=5122127a4d038e9e6fc5300359fbdbfb&imgtype=0&src=http%3A%2F%2Fovsnhdoi9.bkt.clouddn.com%2Fuploads%2Fimage%2Ffile%2F78%2Fc8%2F78c847340c8ae394c92b30fb0e750958.jpg)
+
 # 数据驱动的工具？
 -------------------------
 - 现实中的数据驱动：提需求、排队、数据工程师处理杂乱的数据源、给结果
@@ -90,6 +94,7 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
 - 循环/闭环思维 – 业务流程闭环、用户生命周期闭环，逻辑和影响
 - 测试/对比思维 – A/B test
 - 指数化思维 – 综合指数，降维，销售绩效综合指数，纳斯达克指数
+![BCG Matrix](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245319990&di=45baec30f1abfdebe718e84c212c8dca&imgtype=0&src=http%3A%2F%2Fimg2.template.cache.wps.cn%2Fwps%2Fcdnwps%2Fupload%2Fofficial%2Ftemplate%2F2013-2-5%2F5110a4d64ecd9.png)
 
 # 数据驱动与创新：Zynga大败局
 -------------------------
@@ -100,6 +105,8 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
 - 数据控，拥有一套完整的数据分析系统，包括数据仓库、A/B测试工具和数据分析方法，不仅可以在运营过程中反馈问题，厉害之处更在于可以再游戏立项之初就预测游戏的DAU、收入
 - 新游戏的立项必须提交缜密的预测报告，严重制约了创新精神
 - 2012年投资者抛售股票导致Zynga的市值蒸发了约100亿美元
+
+![Zynga](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245261446&di=ecb8206b7b4262fec86fe471404e2df6&imgtype=0&src=http%3A%2F%2Fpic2.mofang.com.tw%2F2015%2F0508%2F20150508105015848.jpg)
 
 =info 滥用数据容易导致局部优化，进而忽视大局，这是极其危险乃至致命的。渐进式的改变可以达到局部极限，创新则可能导致全局洗牌。同质化和粗糙的快速复制式游戏注定失败。创新玩法、创新体验和高品质才是游戏的未来？
   
