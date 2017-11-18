@@ -6,8 +6,8 @@ mailto: 23771066@qq.com
 
 # 用法
 content目录下直接新增.php文件，对应访问URL，比如：
-- content\demo.php，对应访问URL：http://your_host/demo
-- content\php-laravel.php，对应访问URL：http://your_host/php-laravel
+- content\Demo.php，对应访问URL：http://your_host/Demo
+- content\PHP-Laravel.php，对应访问URL：http://your_host/PHP-Laravel
 - content\重新定义公司.php，对应访问URL：http://your_host/重新定义公司
 
 # 语法

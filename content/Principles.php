@@ -14,7 +14,7 @@ $md = <<<SSS
 # Ray Dalio
 -------------------------
 In 1975, Ray Dalio founded an investment firm, Bridgewater Associates, out of his two-bedroom apartment in New York City. Over forty years later, Bridgewater has grown into the fifth most important private company in the United States, according to Fortune magazine, and Dalio himself has been named to Time magazine’s list of the 100 most influential people in the world. 
-
+  
 # Transcendental Meditation
 -------------------------
 Ray Dalio有一个坚持了40多年的习惯：超脱禅定法（Transcendental Meditation），简称TM。
@@ -22,15 +22,15 @@ Ray Dalio有一个坚持了40多年的习惯：超脱禅定法（Transcendental 
 超觉静坐也称为“超脱性入静”，是禅修的一种手段，是由印度Maharishi Mahesh Yogi所发展起来的一种瑜珈术。传统的“超觉静坐”只能个别传授，具体做法包括：静坐、闭目，默念“字句”以排除杂念。一般是在早饭前和晚上各练习20分钟。由于在整个习练期间，习练者要心中默念字句或声音，从这一点上看，它受到佛教思想的重大影响。
 “超觉静坐”被认为是一种能使人增加能量、降低应激水平、有益身心健康的一种锻炼方法。从生理变化上看，“超觉静坐”与醒觉、睡眠、梦和催眠状态不同。习练后，人的紧张水平会降低，心率变慢，血压下降，耗氧量减少，脑电图中α波增多。有的人认为从事20分钟的习练所体验到的好处胜过一次深度睡眠，它具有重新产生力量并保护身体免受消耗的作用，给人的感觉是一种愉快的、无忧无虑的放松状态。但，极端焦虑、抑郁及某些精神病患者，不适宜进行这种训练。
 超觉是指人的思考活动完全停止，而只有清醒的纯意识存在，佛学上称为“第四意识”或“纯净意识”。在“纯净意识”里，任何思想与物质都不存在，人体感觉处于一种超越时空的状态。禅学称这种状态为“空的境界”或“无我的境界”。玛哈里施的“超觉静坐”就是让人们忘记自己，这并不是失去记忆，而是意识回归心灵深处，体验完全没有思想活动的感觉（即纯净意识）。体验纯净意识时，呼吸变得柔和，身心进入深度休息，整个身体完全松弛，但内心的意识仍然是清醒的。
-
+  
 # 本书官网
 -------------------------
 https://www.principles.com/
-
+  
 # Ray Dalio在TED 2017的演讲
 -------------------------
 https://www.ted.com/talks/ray_dalio_how_to_build_a_company_where_the_best_ideas_win
-
+  
 # 《Principles》最具代表性的20条内容
 -------------------------
 - # 真话最重要
@@ -86,6 +86,7 @@ Dalio认为，管理者应该懂得工作任务的重要优先级，先选取最
 - # 找到提升你自己的动力
 Dalio建议每个人应该每天在工作结束时反思一下自己的工作，看看自己的工作成果有没有达到自己的期望。如果连续一个月都能达到自己的期望，那么你就是正在进步。
 
+  
 # 随记
 -------------------------
 # The quality of our lives depends on the quality ofthe decisions we make
@@ -103,6 +104,7 @@ Dalio建议每个人应该每天在工作结束时反思一下自己的工作，
 - Designing the Plan (Determining the Solutions)
 - Doing the Tasks
 
+  
 # Ray Dalio三部曲
 -------------------------
 [《经济如何像机器一样运行-理解经济运行的框架》](http://www.360doc.com/content/16/0502/11/31613424_555569931.shtml)

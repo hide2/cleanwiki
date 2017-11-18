@@ -25,16 +25,16 @@ $md = <<<SSS
 `经理看到，怒道：你怎么不干活，尽在上网。`
 `回答：我在查实现这个功能需要用什么函数。`
 `他用的是PHP。`
-
+  
 # 趣图赏析-淘宝在售PHP记忆卡
 ![趣图](https://pic4.zhimg.com/50/c3fc020794f3065e4910a87795c29ba3_hd.jpg)
-
+  
 # 趣图赏析-PHP眼中的其他语言
 ![趣图](https://pic2.zhimg.com/50/4bd7efdb169c3192fe2486f57a7f70a9_hd.jpg)
-
+  
 # 趣图赏析-PHP程序员相亲
 ![趣图](https://pic4.zhimg.com/a55c93df23afd5659f706100668ecd73_r.jpg)
-
+  
 # PHP的一篇比较严肃的分析：
 https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/
 # A good language must be:
@@ -51,10 +51,11 @@ https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/
 - PHP is flaky: ==, foreach (\$foo as &\$bar)
 - PHP is opaque: no stack traces by default or for fatals, complex error reporting
 
+  
 # ThinkPHP
 ThinkPHP是一个国产框架，基本是抄袭了Struts、RoR等框架，把一些好的理念应用到PHP。什么MVC、ORM、AOP、DI、模板、filter、bundler、AJAX/REST/NoSQL支持之类的全搞了个遍，没什么新东西，不过原来PHP诟病的不好维护性算是通过学习好的模式和架构得以解决了，算是个敏捷开发的好框架。而且没想到的是，通过面试发现，现在国内用TP的PHPer很多。
 TP官网上的入门教程竟然要收费，20RMB一位，着实被恶心了一把。。那么多可以选择的商业模式，偏偏要选择卖门票。。Anyway, 存在即合理。
-
+  
 # 8小时PHP速成
 - 《PHP中文手册》
 http://www.php.cn/manual/view/4.html
@@ -63,7 +64,7 @@ http://www.php.cn/manual/view/14174.html
 
   
 8小时PHP速成=3小时《PHP中文手册》+3小时《ThinkPHP5.0完全开发手册》+2小时搭建开发环境和练手
-
+  
 # Laravel
 -------------------------
 了解了Laravel之后，才知道ThinkPHP很烂。
@@ -86,6 +87,7 @@ https://laravel.com/
 https://laravel-china.org/
 https://d.laravel-china.org/docs/5.5
 
+  
 # Win下搭建Laravel开发环境
 -------------------------
 # 下载Composer

@@ -11,7 +11,7 @@ $md = <<<SSS
 # 什么是数据驱动？
 -------------------------
 =blue Data-driven means that progress in an activity is compelled by data, rather than by intuition or by personal experience
-
+  
 # 为什么要数据驱动？
 -------------------------
 - 数据驱动和数据分析是一个公司的战略级优势
@@ -23,7 +23,7 @@ $md = <<<SSS
     - 人工智能时代（AI革命背后的三驾马车：深度学习、强大算力、大数据）
 
 ![AI](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510839669&di=eabc0c80f9e7c22e36aa1f2e06754205&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.im170.com%2Fzb_users%2Fupload%2F2017%2F05%2F20170528184816_576487947.jpg)
-
+  
 # 数据驱动成就了哪些公司？
 -------------------------
 =blue 教父级的大数据公司 —— Palantir
@@ -53,7 +53,7 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
 - 微软以260亿美金现金溢价50%收购
 
 ![Palantir](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510243851116&di=31e3caa1ef377887d458d9639d08eb18&imgtype=0&src=http%3A%2F%2Fwww.ironstonehq.com%2Fwp-content%2Fuploads%2F2015%2F04%2FiStock_000035135258Large.jpg)
-
+  
 # 数据驱动哪些决策？
 -------------------------
 - 运营监控
@@ -72,13 +72,14 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
     - 下半年是否可以立项吃鸡项目？
 
 ![吃鸡](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245163324&di=5122127a4d038e9e6fc5300359fbdbfb&imgtype=0&src=http%3A%2F%2Fovsnhdoi9.bkt.clouddn.com%2Fuploads%2Fimage%2Ffile%2F78%2Fc8%2F78c847340c8ae394c92b30fb0e750958.jpg)
-
+  
 # 数据驱动的工具？
 -------------------------
 - 现实中的数据驱动：提需求、排队、数据工程师处理杂乱的数据源、给结果
 - 理想中的数据驱动：自助分析平台，提需求+自助满足
 - 更好的技术架构：[Hadoop](http://hadoop.apache.org/)+[Presto](https://prestodb.io/)
 
+  
 # 数据驱动决策的思维方式？
 -------------------------
 - 信度与效度思维 – 用穿衣尺码还是用体脂率衡量肥胖？
@@ -96,6 +97,7 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
 - 指数化思维 – 综合指数，降维，销售绩效综合指数，纳斯达克指数
 ![BCG Matrix](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245319990&di=45baec30f1abfdebe718e84c212c8dca&imgtype=0&src=http%3A%2F%2Fimg2.template.cache.wps.cn%2Fwps%2Fcdnwps%2Fupload%2Fofficial%2Ftemplate%2F2013-2-5%2F5110a4d64ecd9.png)
 
+  
 # 数据驱动与创新：Zynga大败局
 -------------------------
 - 成立于2007年

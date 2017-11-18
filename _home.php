@@ -37,6 +37,7 @@ $md = <<<SSS
     - [精益数据分析](/精益数据分析)
     - [演讲的力量](/演讲的力量)
     - [Principles](/Principles)
+    - [How to Start a Startup](/How-to-Start-a-Startup)
 - 记忆碎片
     - [七十七天](/七十七天)
 SSS;

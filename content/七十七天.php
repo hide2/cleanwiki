@@ -1,6 +1,6 @@
 <?php
 /////////////////////////// 设置文档标题、作者、email
-$title = '七十七天';
+$title = '《七十七天》赵汉唐';
 $author = '犀利哥';
 $email = '23771066@qq.com';
 
@@ -13,7 +13,7 @@ $md = <<<SSS
 
 <iframe id="video" frameborder="0" width="100%" height="240px" src="http://player.youku.com/embed/XMzEwOTkzNzM4NA==" allowfullscreen></iframe>
   
-在浩瀚无垠的宇宙里，在短短的一生中，鼓起勇气，做自己想做的事，成为想成为的自己。
+# 在浩瀚无垠的宇宙里，在短短的一生中，鼓起勇气，做自己想做的事，成为想成为的自己。
   
 2017.11.8
 

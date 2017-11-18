@@ -19,7 +19,7 @@ $md = <<<SSS
 企业家、作家、演讲家，用户体验管理先锋公司Coradiant联合创始人。曾花大量时间研究各种规模的组织如何使用数据做出优良决策、加速创业过程。他职业生涯的大部分时间都是技术公司的产品经理，是O'Reilly Strata、TechWeb Cloud Connect、Interop企业云计算峰会、International Startup Festival（国际创业节）等5个国际知名技术大会的主要发起人。
 本杰明
 目前担任广受欢迎的二手货买卖应用[VarageSale](http://varagesale.com)产品管理副总，主要负责Web和移动平台的产品开发。他是Standout Jobs和Year One Labs公司联合创始人，曾积极指导众多创业公司和其他加速器项目。他创办了以精益创业、产品管理、创业公司和企业家精神为主题的博客[Instigator Blog](http://www.instigatorblog.com)，并定期在创业会议上演讲。他也是天使投资人、连续创业者，具有15年以上的互联网产品运营经验。
-
+  
 # 随记
 -------------------------
 我打赌你从未想过成功取决于你失败的能力。失败越快，进步越大。而成功的秘密是使用数据学习和快速迭代的能力。
@@ -54,7 +54,7 @@ Peter F．Drucker名言：“ If you can't measure it, you can't manage it.”
   
 我们不需要猜测，而是需要知道关注哪里。我们需要条理清晰的方法，让我们在每一步都能识别风险、量化风险、克服风险、最终通向增长。今天的领袖不知道全部的答案，但是知道该问什么样的问题。
 提出好的问题，向前走。
-
+  
 # 精益创业循环：Build-Mesure-Learn
 -------------------------
 一篇很好的分析
@@ -62,7 +62,7 @@ https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-w
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/build-measure-learn.jpg)
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/ideas-build-code-measure.jpg)
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/hypotheses-experiment.jpg)
-
+  
 # 精益画布
 -------------------------
 通过精益画布，让人很容易发现创业中最大的风险，并促使你理性、诚实地看待自己的创业。
@@ -88,10 +88,11 @@ Something that can not be easily copied or bought
 ![精益画布](https://leanstack.com/assets/leancanvas-screenshot.png)
 ![精益画布](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510056623393&di=a624f68059e90f42af920578ef6c1f6b&imgtype=0&src=http%3A%2F%2Fwww.91cyl.com%2Fuploads%2Fallimg%2F160714%2F1-160G4150930.png)
 
+  
 # 第一关键指标OMTM
 One Metric That Matters
 当前阶段高于一切、需要你集中全部注意力的数字
-
+  
 # 精益创业的五大阶段
 -------------------------
 - # 移情阶段
