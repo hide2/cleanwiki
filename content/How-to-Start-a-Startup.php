@@ -18,11 +18,11 @@ http://open.163.com/special/opencourse/startup.html
 =blue 1. Why you should start a startup - Dustin Moskovitz
 -------------------------
 The Best Reason: `You Can't Not Do It`
-    - `Passion`: You need to do it
+- `Passion`: You need to do it
 You'll need passion to endure The Struggle
 You'll need passion to effectively recruit
-    - `Aptitude`: The world needs you to do it
-        - The world needs it
+- `Aptitude`: The world needs you to do it
+    - The world needs it
 Otherwise do something that the world needs
 
   
@@ -36,17 +36,17 @@ The company should feel like an important `mission`
 Build something users `love`
 Talk to users
 Show it to users -> `User feedback` -> Product Decisions loop
-    - What do they like?
-    - What would they pay for?
-    - What would make them recommend it?
+- What do they like?
+- What would they pay for?
+- What would make them recommend it?
 
-    Metrics: Focus on `growth`
-    - Total registrations
-    - Active users
-    - Activity Levels
-    - Cohort Retention
-    - Revenue
-    - Net Promoter Score
+Metrics: Focus on `growth`
+- Total registrations
+- Active users
+- Activity Levels
+- Cohort Retention
+- Revenue
+- Net Promoter Score
 
   
 =blue Teams
@@ -56,13 +56,53 @@ Know your cofounders
 Try not to hire
 Get the best people
 Mediocre engineers do not build great companies
-    - Are they smart?
-    - Do they get things done?
-    - Do I want to spend a lot of time around them?
-    - Good communication skills
-    - Manically determined
-    - Pass the animal test
-    - Would feel comfortable reporting to them
+- Are they smart?
+- Do they get things done?
+- Do I want to spend a lot of time around them?
+- Good communication skills
+- Manically determined
+- Pass the animal test
+- Would feel comfortable reporting to them
+
+You’ve hired the best - now keep them around!
+Fire fast
+
+  
+=blue Execution
+The CEO has five jobs
+- Set the vision
+- Raise money
+- Evangelize
+- Hire and manage
+- Make sure the entire company executes
+
+Focus
+- What are you spending time and money on? opera
+- What are the two or three most important things?
+- Say no. A lot.
+- Set overarching goals. Repeat them
+- Communicate
+- Maintain growth and momentum
+- Work together in person
+
+Intensity
+- Relentless operating rhythm
+- Obsession with Execution Quality
+- Bias towards action
+- Quick
+- Do Whatever it takes
+- Show up
+- Don't give up
+- Be courageous
+
+Always keep momentum
+Always keep growing
+Set an operation rhythm
+- Shipping product
+- Launching new features
+- Reviewing/reporting metrics and milestones
+
+Don't spend more money than you have
 
   
 =blue 3. Counterintuitive Parts of Startups, and How to Have Ideas - Paul Graham
