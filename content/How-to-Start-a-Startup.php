@@ -153,7 +153,7 @@ Don't spend more money than you have
 另一个案例是一个同学做微商，一直没有增长，半死不活的状态坚持了很多年，其实他早该pivot
 现实中大多数创业团队都需要转型，而且关键在于转型的速度和质量
 
-
+  
 =blue 5. Business Strategy and Monopoly Theory - Peter Thiel
 -------------------------
 `Competition is for losers`
@@ -161,10 +161,31 @@ Don't spend more money than you have
     - X*Y%
 - lies people tell
 - how to build a monopoly
+    Characteristics of Monopoly
+    - proprietary technology
+    - network effects
+    - economies of scale
+    - branding
 - last mover advantage
 - history of innovation
+    Success cases
+    - Vertically integrated complex monopolies
+    Ford, Standard Oil, Tesla, SpaceX
+    - Software
+    economies of scale, low marginal cost, high adoption rate
 - psychology of competition
 
+>衡量一个公司的价值的方法，创造X美元的价值，并把其中的Y%把握在自己手中，X和Y是独立的
+形成垄断的重要切入点是进入小的市场，并迅速占领这个市场，因为大的市场竞争非常激烈，所有的价值都在竞争中消耗掉了
+虽然第一个吃螃蟹的人很勇敢，但最重要的是要做笑到最后的人，因此必须不断创新，保持竞争力
+跨界融合式创新可能更容易成功，如Tesla
+软件很容易成为爆点，因为边际成本为0，如Google、Facebook
+不要拘泥于完全竞争的弹丸之地，转角你可能会发现巨大的机会
+精益创业无用，伟大的公司都是做出巨大的改变以和其他人区别开来
+
+PT是那种长远思考、一眼看到底、预见未来的人，在PT眼里精益创业根本就是浪费时间瞎碰运气
+
+  
 =blue 6. Growth - Alex Schultz
 -------------------------
 
