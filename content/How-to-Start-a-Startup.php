@@ -15,7 +15,7 @@ http://open.163.com/special/opencourse/startup.html
   
 # 课程列表
 -------------------------
-=blue 1. Why you should start a startup - Dustin Moskovitz
+=blue <h1>1. Why you should start a startup - Dustin Moskovitz</h1>
 -------------------------
 The Best Reason: `You Can't Not Do It`
 - `Passion`: You need to do it
@@ -32,7 +32,7 @@ The world needs you somewhere - find where
 >创业只有一个原因：你不得不去创业，因为命运选择了你
 你拥有要去做这件事的难以抑制的激情+这个世界需要这个东西+你拥有做这件事的最好的天赋
 
-=blue 2. Ideas, Products, Teams and Execution - Sam Altman
+=blue <h1>2. Ideas, Products, Teams and Execution - Sam Altman</h1>
 -------------------------
 =blue Ideas
 The `Idea` comes first
@@ -128,7 +128,7 @@ Don't spend more money than you have
 保持增长势头可以鼓舞士气，保持信心，一切问题都迎刃而解
 无视你的竞争者，不要让他们破坏你的增长势头
 
-=blue 3. Counterintuitive Parts of Startups, and How to Have Ideas - Paul Graham
+=blue <h1>3. Counterintuitive Parts of Startups, and How to Have Ideas - Paul Graham</h1>
 -------------------------
 
 >创业中反直觉的几条原则
@@ -139,7 +139,7 @@ Don't spend more money than you have
 创业前途未卜
 获得创意的方法就是不去刻意想创意
 
-=blue 4. Building Product, Talking to Users, and Growing - Adora Cheung
+=blue <h1>4. Building Product, Talking to Users, and Growing - Adora Cheung</h1>
 -------------------------
 >选择行业，并对该行业有所了解
 简单定义企业特点，明确客户群体，实地营销
@@ -154,7 +154,7 @@ Don't spend more money than you have
 现实中大多数创业团队都需要转型，而且关键在于转型的速度和质量
 
   
-=blue 5. Business Strategy and Monopoly Theory - Peter Thiel
+=blue <h1>5. Business Strategy and Monopoly Theory - Peter Thiel</h1>
 -------------------------
 `Competition is for losers`
 - capturing value
@@ -186,52 +186,130 @@ Don't spend more money than you have
 PT是那种长远思考、一眼看到底、预见未来的人，在PT眼里精益创业根本就是浪费时间瞎碰运气
 
   
-=blue 6. Growth - Alex Schultz
+=blue <h1>6. Growth - Alex Schultz</h1>
+-------------------------
+>对于网站，用户留存率是最重要的，而这则取决于产品的好坏，因此先要做好产品
+要选对增长目标，制造激动时刻
+Airbnb的激动时刻就是你发现了一个很酷的房间，在你推门进去的那一刻
+比如Facebook的激动时刻就是看到你的朋友也在使用它
+Facebook的第一个增长目标就是专注于让用户14天内找到10个朋友，使用户体验激动时刻
+Facebook的第二个增长目标是国际化
+病毒式营销：Payload、Frequency、CR
+
+=blue <h1>7. How to Build Products Users Love I - Kevin Hale</h1>
+-------------------------
+>给用户留下良好的第一印象
+重视客服的影响力
+
+=blue <h1>8. Doing Things That Don't Scale, PR, and How to Get Started - Walker Williams</h1>
+-------------------------
+>Test your hypothesis
+Launch fast
+Do things that don't scale
+Finding your first users
+Turning those users into champions
+Finding product/market fit
+Use press
+
+=blue <h1>9. How to Raise Money - Marc Andreessen</h1>
+-------------------------
+>Is this person a leader?
+Is this person rightful, focused, and obsessed by the product?
+Say in one compelling sentence so that the investor immediately can picture the product in their own mind
+Key to success is be so good they can't ignore you
+
+# Onion theory of risk:
+- make a list of risks
+- running a startup & raising money is a process of peeling away layers of risk
+- raise seed money to peel away the first two or three risks(founding team, product)
+- raise A round to peel away the next level of risks(product, recruiting, customer)
+- peeling away your risk by achieving milestones, both making progress in business and justifying raising more capital
+- I raised a seed round, I achieved these milestones, I eliminated these risks, I raised the A round, I achieved these milestones, I eliminated these risks, now I am raising a B round, here are my milestones, here are my risks, and by the time I go to raise a C round, here is the state I will be in, and calibrate the amound of money you raise and spend to the risks that you are pulling out of the business
+
+  
+=blue What Ron and SV Angel Look for in a Company
+# What We Look For
+- Great team is #1 - "chemistry with Founders"
+- Solid idea or product is important, prerequisite
+- Company in growth sector
+- Solving practical and real problem
+- Strong network effects and first-mover advantage
+- Metrics matter - know signals of consumer adoption
+- Early traction and working beta product
+- Good elevator pitch - keep it simple
+- Decisiveness - often tested in building the team
+- Exec summary important as door opener
+- IP does Matter
+- Don't over-negotiate or dwell on terms - get back to building a big company!
+- Hire ahead of needs and do backdoor references
+- Understand success rate
+- Distribution and business development always important - SALES!
+
+# Founder Personal Characteristics
+- Decisiveness - often tested in building the team
+- Do not procrastinate
+- Be proactive
+- Clear vision - entire team understands direction and mission
+- Team and team builder as CEO
+- Passion
+- Flexibility on idea and morph constantly
+- Good listeners - strong willed but flexible
+- Reliability and responsiveness
+- Move fast, sweat logistics - devil in details
+- Execution is everything - make mistakes but learn from them
+- Trust your gut, make decisions
+- Reliability and Responsiveness
+- Over-communicate with everyone - the team, investors, customers, etc.
+- Hire aggressively ahead of needs
+- Lead by example - 24/7, no distractions
+
+# How To Pick Your Investors
+- Rolodex vs time vs Pedigree and Track Record
+- Helping on next financing round
+- How many repeat entrepreneurs choose again
+- Backdoor references
+- Value add
+- Business advice via pattern recognition
+- Experience, mentoring
+- Network, syndicate
+- Responsiveness
+
+  
+=blue <h1>10. Company Culture and Building a Team I - Alfred Lin</h1>
 -------------------------
 
-=blue 7. How to Build Products Users Love I - Kevin Hale
+=blue <h1>11. Company Culture and Building a Team II - Patrick Collison</h1>
 -------------------------
 
-=blue 8. Doing Things That Don't Scale, PR, and How to Get Started - Walker Williams
+=blue <h1>12. Sales and Marketing - Aaron Levie</h1>
 -------------------------
 
-=blue 9. How to Raise Money - Marc Andreessen
+=blue <h1>13. How To Be A Great Founder - Reid Hoffman</h1>
 -------------------------
 
-=blue 10. Company Culture and Building a Team I - Alfred Lin
+=blue <h1>14. How to Operate - Keith Rabois</h1>
 -------------------------
 
-=blue 11. Company Culture and Building a Team II - Patrick Collison
+=blue <h1>15. How to Manage - B Horowitz</h1>
 -------------------------
 
-=blue 12. Sales and Marketing - Aaron Levie
+=blue <h1>16. How to Run a User Interview - Emmett Shear</h1>
 -------------------------
 
-=blue 13. How To Be A Great Founder - Reid Hoffman
+=blue <h1>17. How to Build Products Users Love II - Hosain Rahman</h1>
 -------------------------
 
-=blue 14. How to Operate - Keith Rabois
+=blue <h1>18. Mechanics--Legal, Finance, HR, etc. - Kirsty Nathoo</h1>
 -------------------------
 
-=blue 15. How to Manage - B Horowitz
+=blue <h1>19. Sales and Marketing, How to Pitch, and Investor Meeting Roleplaying - Tyler Bosmeny</h1>
 -------------------------
 
-=blue 16. How to Run a User Interview - Emmett Shear
+=blue <h1>20. Closing Thoughts and Later-Stage Advice - Sam Altman</h1>
 -------------------------
 
-=blue 17. How to Build Products Users Love II - Hosain Rahman
--------------------------
-
-=blue 18. Mechanics--Legal, Finance, HR, etc. - Kirsty Nathoo
--------------------------
-
-=blue 19. Sales and Marketing, How to Pitch, and Investor Meeting Roleplaying - Tyler Bosmeny
--------------------------
-
-=blue 20. Closing Thoughts and Later-Stage Advice - Sam Altman
--------------------------
-
-2017.11.18
+  
+2017.11.21
 
 SSS;
 /////////////////////////// 文档内容结束
