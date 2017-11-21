@@ -277,6 +277,8 @@ Key to success is be so good they can't ignore you
   
 =blue <h1>10. Company Culture and Building a Team I - Alfred Lin</h1>
 -------------------------
+> Culture is the thing that's gonna be very very important for you to be able to scale the business as well as your team
+
 
 =blue <h1>11. Company Culture and Building a Team II - Patrick Collison</h1>
 -------------------------
