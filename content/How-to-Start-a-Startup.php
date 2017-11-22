@@ -32,6 +32,9 @@ The world needs you somewhere - find where
 >创业只有一个原因：你不得不去创业，因为命运选择了你
 你拥有要去做这件事的难以抑制的激情+这个世界需要这个东西+你拥有做这件事的最好的天赋
 
+![Facebook](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3918435651,2140737301&fm=27&gp=0.jpg)
+![Asana](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511966428&di=214b4fc5bc1624a3e6d6015c8cc93780&imgtype=jpg&er=1&src=http%3A%2F%2Fpic2.pedaily.cn%2Fnewseed%2Fproject%2F201603%2F20160331144011800.jpg)
+
 =blue <h1>2. Ideas, Products, Teams and Execution - Sam Altman</h1>
 -------------------------
 =blue Ideas
@@ -128,6 +131,9 @@ Don't spend more money than you have
 保持增长势头可以鼓舞士气，保持信心，一切问题都迎刃而解
 无视你的竞争者，不要让他们破坏你的增长势头
 
+![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
+
+  
 =blue <h1>3. Counterintuitive Parts of Startups, and How to Have Ideas - Paul Graham</h1>
 -------------------------
 
@@ -139,6 +145,9 @@ Don't spend more money than you have
 创业前途未卜
 获得创意的方法就是不去刻意想创意
 
+![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
+
+  
 =blue <h1>4. Building Product, Talking to Users, and Growing - Adora Cheung</h1>
 -------------------------
 >选择行业，并对该行业有所了解
@@ -279,16 +288,68 @@ Key to success is be so good they can't ignore you
 -------------------------
 > Culture is the thing that's gonna be very very important for you to be able to scale the business as well as your team
 Company culture is everyday core values and actions of each member of the team in pursuit of our company mission
+Your beliefs become your thoughts. Your thoughts become your words. Your words become your actions. Your actions become your habits. Your habits become your values. Your values become your destiny.
+Fast=First Principles+Aignment+Stability+Trust+Exclusion+Retention
 
+Core value worksheet：
+- As the leader, what personal values are most important to you?
+- What are the most important values for business success?
+- What values will you look for in employees?
+- What could never be tolerated?(consider the opposite as values)
+- Remember to incorporate your mission into your core values
 
+Elements of high performing teams:
+- Trust
+- Conflict
+- Commitment
+- Accountability
+- Results
+
+Best Practices for culture:
+- Incorporate your mission to your values
+- Performance = think harder, deeper, longer about values
+- Interview for culture fit
+- Evaluate performance on culture as well
+- Make it a daily habit
+
+  
 =blue <h1>11. Company Culture and Building a Team II - Patrick Collison</h1>
 -------------------------
+使命->文化->招聘和打造足够优秀的、符合文化的团队
+想天使投资人一样寻找自己的雇员：
+- 有强烈好奇心
+- 自学能力强
+- 不断创造新东西
+- 属于Be-Better类型
+- 有独立思考能力
+- 方法论明晰
+- 价值观坚定
 
+  
 =blue <h1>12. Sales and Marketing - Aaron Levie</h1>
 -------------------------
+=blue Listen to customers
+But don't always build exactly what they want.
+Build what they need.
 
+  
+=blue Modularize, don't customize
+Every customer will want something a little bit different. 
+Don't make the product suffer for this.
+Open APIs as a way of delivering vertical or custom experiences.
+
+  
+=blue Focus on the user
+Keep "consumer" DNA at the core of your enterprise product.
+This will always pay dividends.
+
+  
+=blue Your product should sell itself
+Sales should be used to navigate customers and close deals, not be a substitute for great product.
+  
 =blue <h1>13. How To Be A Great Founder - Reid Hoffman</h1>
 -------------------------
+
 
 =blue <h1>14. How to Operate - Keith Rabois</h1>
 -------------------------
