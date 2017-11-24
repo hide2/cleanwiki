@@ -38,6 +38,18 @@ $md = <<<SSS
     - [演讲的力量](/演讲的力量)
     - [Principles](/Principles)
     - [How to Start a Startup](/How-to-Start-a-Startup)
+    - [Diffusion of Innovations]
+    - [影响力]
+    - [细节]
+    - [定位]
+    - [匠人精神]
+    - [黑天鹅]
+    - [灰犀牛]
+    - [反脆弱]
+    - [乌合之众]
+    - [断层线]
+    - [第七感]
+    - [思考，快与慢]
 - 记忆碎片
     - [七十七天](/七十七天)
 SSS;
