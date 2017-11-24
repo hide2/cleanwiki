@@ -27,6 +27,8 @@ $md = <<<SSS
 - 技术资料
     - [Demo](/Demo)
     - [PHP-Laravel](/PHP-Laravel)
+    - [EasyWeChat]
+    - [Cocos2d-JS]
 - 思考点滴
     - [数据驱动思维](/数据驱动思维)
 - 读书笔记

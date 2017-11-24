@@ -27,13 +27,13 @@ $md = <<<SSS
 `他用的是PHP。`
   
 # 趣图赏析-淘宝在售PHP记忆卡
-![趣图](https://pic4.zhimg.com/50/c3fc020794f3065e4910a87795c29ba3_hd.jpg)
+![PHP记忆卡](http://img1.imgtn.bdimg.com/it/u=476940231,194477151&fm=214&gp=0.jpg)
   
 # 趣图赏析-PHP眼中的其他语言
-![趣图](https://pic2.zhimg.com/50/4bd7efdb169c3192fe2486f57a7f70a9_hd.jpg)
+![PHP眼中的其他语言](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1195453099,3857893795&fm=27&gp=0.jpg)
   
 # 趣图赏析-PHP程序员相亲
-![趣图](https://pic4.zhimg.com/a55c93df23afd5659f706100668ecd73_r.jpg)
+![PHP程序员相亲](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2250285903,3835268836&fm=27&gp=0.jpg)
   
 # PHP的一篇比较严肃的分析：
 https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/
