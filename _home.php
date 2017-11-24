@@ -29,22 +29,29 @@ $md = <<<SSS
     - [PHP-Laravel](/PHP-Laravel)
     - [EasyWeChat]
     - [Cocos2d-JS]
+    - [Tensorflow]
 - 思考点滴
     - [数据驱动思维](/数据驱动思维)
 - 读书笔记
+    - [Principles](/Principles)
+    - [How to Start a Startup](/How-to-Start-a-Startup)
+    - [Diffusion of Innovations]
+    - [ZERO TO ONE]
+    - [THE INNOVATOR'S DILEMMA]
     - [重新定义公司](/重新定义公司)
     - [重新定义团队](/重新定义团队)
     - [助推](/助推)
     - [爆裂](/爆裂)
     - [精益数据分析](/精益数据分析)
     - [演讲的力量](/演讲的力量)
-    - [Principles](/Principles)
-    - [How to Start a Startup](/How-to-Start-a-Startup)
-    - [Diffusion of Innovations]
     - [影响力]
     - [细节]
     - [定位]
     - [匠人精神]
+    - [失控]
+    - [科技想要什么]
+    - [技术元素]
+    - [新经济新规则]
     - [黑天鹅]
     - [灰犀牛]
     - [反脆弱]

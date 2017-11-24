@@ -162,6 +162,10 @@ Don't spend more money than you have
 另一个案例是一个同学做微商，一直没有增长，半死不活的状态坚持了很多年，其实他早该pivot
 现实中大多数创业团队都需要转型，而且关键在于转型的速度和质量
 
+=warn 可惜的是，作为共享经济、O2O的鼻祖企业，Homejoy于2015年倒闭。
+
+![HomeJoy](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511521689764&di=17f13ba129bd6f302405205f37dba63a&imgtype=0&src=http%3A%2F%2Fimage.sowm.cn%2Fm2EZRv.gif)
+
   
 =blue <h1>5. Business Strategy and Monopoly Theory - Peter Thiel</h1>
 -------------------------
@@ -194,6 +198,8 @@ Don't spend more money than you have
 
 PT是那种长远思考、一眼看到底、预见未来的人，在PT眼里精益创业根本就是浪费时间瞎碰运气
 
+![PayPal](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522627428&di=a6d2fcaabac47752ed91723a254d5f3c&imgtype=0&src=http%3A%2F%2Fstatic.leiphone.com%2Fuploads%2Fnew%2Farticle%2F740_740%2F201606%2F5754f6099ec3b.png)
+![Palantir](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522415537&di=ab252674984f224f541c2bf317d38482&imgtype=0&src=http%3A%2F%2Fwww.yuntoutiao.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fpalantir-logo.png)
   
 =blue <h1>6. Growth - Alex Schultz</h1>
 -------------------------
@@ -205,11 +211,14 @@ Facebook的第一个增长目标就是专注于让用户14天内找到10个朋�
 Facebook的第二个增长目标是国际化
 病毒式营销：Payload、Frequency、CR
 
+![Facebook](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3918435651,2140737301&fm=27&gp=0.jpg)
+  
 =blue <h1>7. How to Build Products Users Love I - Kevin Hale</h1>
 -------------------------
 >给用户留下良好的第一印象
 重视客服的影响力
-
+![Wufoo](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522900458&di=2f1685cf41fb4110ef82c4bfd8b77e23&imgtype=0&src=http%3A%2F%2Fwww.kuqin.com%2Fupimg%2Fallimg%2F110913%2F22152051F-1.jpg)
+  
 =blue <h1>8. Doing Things That Don't Scale, PR, and How to Get Started - Walker Williams</h1>
 -------------------------
 >Test your hypothesis
@@ -220,6 +229,9 @@ Turning those users into champions
 Finding product/market fit
 Use press
 
+![DOORDASH](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523269070&di=dfc3bd7a87fd27ca3320d5a7251326cc&imgtype=0&src=http%3A%2F%2Fupload.uschinapress.com%2F2017%2F0324%2F1490395605153.jpg)
+![twitch](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523272362&di=0e7ce9b5ab8d1ed51f8f22ef69a85cdf&imgtype=0&src=http%3A%2F%2Fimg.android.d.cn%2Fandroid%2Fnew%2Fgame_image%2F80%2F16180%2Fbanner.png)
+  
 =blue <h1>9. How to Raise Money - Marc Andreessen</h1>
 -------------------------
 >Is this person a leader?
@@ -283,6 +295,7 @@ Key to success is be so good they can't ignore you
 - Network, syndicate
 - Responsiveness
 
+![SV Angel](https://svangel.com/i/sv-angel-logo.png)
   
 =blue <h1>10. Company Culture and Building a Team I - Alfred Lin</h1>
 -------------------------
@@ -312,6 +325,7 @@ Best Practices for culture:
 - Evaluate performance on culture as well
 - Make it a daily habit
 
+![Sequoia](https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1013209256,3897995824&fm=27&gp=0.jpg)
   
 =blue <h1>11. Company Culture and Building a Team II - Patrick Collison</h1>
 -------------------------
@@ -325,6 +339,7 @@ Best Practices for culture:
 - 方法论明晰
 - 价值观坚定
 
+![stripe](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523996685&di=31ebbbd53ac39b16b5eeb4b8efe01e2f&imgtype=0&src=http%3A%2F%2Fwww.ibtimes.com.cn%2Fimg%2Fchinese%2Fdata%2Fimages%2Ffull%2F2014%2F12%2F25%2F44801.png)
   
 =blue <h1>12. Sales and Marketing - Aaron Levie</h1>
 -------------------------
@@ -346,13 +361,18 @@ This will always pay dividends.
   
 =blue Your product should sell itself
 Sales should be used to navigate customers and close deals, not be a substitute for great product.
+
+![box](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511524481421&di=9de367053cbbdfe11d57e0f97c3866b8&imgtype=0&src=http%3A%2F%2Fwww.yuntoutiao.com%2Fwp-content%2Fuploads%2F2014%2F10%2FBOX.jpg)
   
 =blue <h1>13. How To Be A Great Founder - Reid Hoffman</h1>
 -------------------------
 
+![Linkedin](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511524592281&di=7677e41714544865de56f78b09e5df0a&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D687368685%2C1755241334%26fm%3D214%26gp%3D0.jpg)
 
 =blue <h1>14. How to Operate - Keith Rabois</h1>
 -------------------------
+
+![Square](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511524758409&di=5c9f50dcd04801807a6b643170211918&imgtype=0&src=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Ff2fb057b70db0fb03181b1c867ac55a6.png)
 
 =blue <h1>15. How to Manage - B Horowitz</h1>
 -------------------------
@@ -372,6 +392,7 @@ Sales should be used to navigate customers and close deals, not be a substitute 
 =blue <h1>20. Closing Thoughts and Later-Stage Advice - Sam Altman</h1>
 -------------------------
 
+![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
   
 2017.11.21
 
