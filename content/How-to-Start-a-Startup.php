@@ -204,7 +204,7 @@ Don't spend more money than you have
 =blue <h1>6. Growth - Alex Schultz</h1>
 -------------------------
 >对于网站，用户留存率是最重要的，而这则取决于产品的好坏，因此先要做好产品
-要选对增长目标，制造激动时刻
+`选对增长目标，制造激动时刻`
 Airbnb的激动时刻就是你发现了一个很酷的房间，在你推门进去的那一刻
 比如Facebook的激动时刻就是看到你的朋友也在使用它
 Facebook的第一个增长目标就是专注于让用户14天内找到10个朋友，使用户体验激动时刻
@@ -231,6 +231,7 @@ Finding product/market fit
 Use press
 
 ![DOORDASH](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523269070&di=dfc3bd7a87fd27ca3320d5a7251326cc&imgtype=0&src=http%3A%2F%2Fupload.uschinapress.com%2F2017%2F0324%2F1490395605153.jpg)
+![teespring](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511599304678&di=d2c6b04f6b17dc347a96aeca51f7223f&imgtype=0&src=http%3A%2F%2Fimglf0.ph.126.net%2FXue3cOFx_z3_mZdPjUZx-g%3D%3D%2F6631566943978885527.png)
 ![twitch](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523272362&di=0e7ce9b5ab8d1ed51f8f22ef69a85cdf&imgtype=0&src=http%3A%2F%2Fimg.android.d.cn%2Fandroid%2Fnew%2Fgame_image%2F80%2F16180%2Fbanner.png)
   
 =blue <h1>9. How to Raise Money - Marc Andreessen</h1>
@@ -332,13 +333,13 @@ Fast=First Principles+Aignment+Stability+Trust+Exclusion+Retention
 -------------------------
 使命->文化->招聘和打造足够优秀的、符合文化的团队
 想天使投资人一样寻找自己的雇员：
-- 有强烈好奇心
-- 自学能力强
-- 不断创造新东西
-- 属于Be-Better类型
-- 有独立思考能力
-- 方法论明晰
-- 价值观坚定
+- `有强烈好奇心`
+- `自学能力强`
+- `不断创造新东西`
+- `属于Be-Better类型`
+- `有独立思考能力`
+- `方法论明晰`
+- `价值观坚定`
 
 ![stripe](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523996685&di=31ebbbd53ac39b16b5eeb4b8efe01e2f&imgtype=0&src=http%3A%2F%2Fwww.ibtimes.com.cn%2Fimg%2Fchinese%2Fdata%2Fimages%2Ffull%2F2014%2F12%2F25%2F44801.png)
   
@@ -367,35 +368,183 @@ Sales should be used to navigate customers and close deals, not be a substitute 
   
 =blue <h1>13. How To Be A Great Founder - Reid Hoffman</h1>
 -------------------------
+=blue How do I be a great founder
+- Founding Team
+- Location
+- Delegation
+- Focus
+- Vision
+- Evaluation
+- Confidence
+- Risk
+- Data
+- Time horizon
+- Persistence
+- idea
+- marketing
+- scaling
+- equity
+- financing
+- legal
+- culture
+- recruiting
+- competition
+- management
+- design
+- growth hacking
+- product
+- operations
+- pivoting
+- execution
+- communication
+- business strategy
+- focus groups
+
+=blue Team
+Have two or three people on a team rather than a solar founder is much better
+There' this very broad set of skills. There's this whole set of questions about how you adapt your company in order to be successful.
+If you have two or three founders, you have different skills, you can compensate for each other's weaknesses
+You can in the diversity of problems that you encounter as a founder that you can actually attack them
+
+=blue Location
+When you're founding a company, go to where it's successful to this
+`Entrepreneurship is jumping off a cliff and assembling an airplane on the way down`
+
+  
+=blue Contrarian
+What's the way that what do I know that other people don't know?
+Go talk to every smart person who will talk to you and give you feedback, think about how is it that smart people disagree with me? AND there's something that I know that they don't know that actually in fact will play out to be true.
 
 ![Linkedin](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511524592281&di=7677e41714544865de56f78b09e5df0a&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D687368685%2C1755241334%26fm%3D214%26gp%3D0.jpg)
 
+  
 =blue <h1>14. How to Operate - Keith Rabois</h1>
 -------------------------
+做一个公司比做一个产品难多了，根本的原因在于人是非理性的
+打造一个公司就像是要把所有这些不理性的人，放在同一个屋子里然后和他们一天至少生活12个小时
+A manager's output = The output of his organization + The output of the neighboring organizations under his influence
+`打造一个公司就像打造一个引擎`
+`像编辑一样运营一个公司 - Editing`
+- Simplify（精简，提炼 - 问题）
+- Clarify（阐明，精准 - 目标）
+- Allocate Resources（轻重缓急）
+- Ensure Consistent Voice（步调一致）
+- Delegate（熟练则放权，监控和设定目标；不熟练则详细监控，控制进度）
+Task-Relevant Maturity:
+Low - Highly structured: what, when, how
+High - Monitor and set objectives
 
 ![Square](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511524758409&di=5c9f50dcd04801807a6b643170211918&imgtype=0&src=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Ff2fb057b70db0fb03181b1c867ac55a6.png)
 
 =blue <h1>15. How to Manage - B Horowitz</h1>
 -------------------------
+When making a critical decision, you must understand how it will be interpreted from each person's point of view and its impact on the union of the individual views. i.e. culture
+- Do you demote or fire?
+- An excellent employee asks you for a raise
 
+=blue It's not your perspective or the perspective of the person that you are talking to at the moment that matters.
+=blue You must consider the people who are not in the room.
+=blue They are the company. They are the culture.
+
+![a16z](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511594533749&di=fc07175936557a515af4d59209b2e725&imgtype=0&src=http%3A%2F%2Fimg9.91huo.cn%2Fvr%2Ffolder21%2Ffolder651%2F5626b76e03dcd0443b950646_investor-a16z-dark-solo.png)
+  
 =blue <h1>16. How to Run a User Interview - Emmett Shear</h1>
 -------------------------
+>`以用户反馈作为产品开发的驱动力，做用户真正需要的产品`
+用户调查和访问，需要迂回和旁敲侧击，深入提问，并透过表象看透实质
 
+"If you could put a thousand songs in your pocket and take them anywhere," that's cool. 
+Not, "Do you want a digital portable music player?"
+
+![twitch](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511523272362&di=0e7ce9b5ab8d1ed51f8f22ef69a85cdf&imgtype=0&src=http%3A%2F%2Fimg.android.d.cn%2Fandroid%2Fnew%2Fgame_image%2F80%2F16180%2Fbanner.png)
+
+  
 =blue <h1>17. How to Build Products Users Love II - Hosain Rahman</h1>
 -------------------------
+What our process feels like?
+- Exploration - Unbridled imagination
+- Early validation - Proving your thesis like a Ph.D.
+- Concept - Big, human-centric concepts
+- Planning - Emergence of a product
+- Development - Bringing it to life
+- Continued innovation - Feeling the fire
 
+`产品需要解决痛点，而不是挠痒痒`
+You can't live without it
+![jawbone](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511602132704&di=6cbc6ec004684bc2acec3dacc54459c6&imgtype=0&src=http%3A%2F%2Fd3osil7svxrrgt.cloudfront.net%2Fstatic%2Fwww%2Flogos%2Fjawbone%2Fjawbone-logo-display.png)
+
+  
 =blue <h1>18. Mechanics--Legal, Finance, HR, etc. - Kirsty Nathoo</h1>
 -------------------------
+[有限责任公司和股份有限公司的区别](https://www.zhihu.com/question/21921556)
+[什么是期权激励](https://www.zhihu.com/question/21818075)
+[什么是VIE结构](https://www.zhihu.com/question/21217305)
 
-=blue <h1>19. Sales and Marketing, How to Pitch, and Investor Meeting Roleplaying - Tyler Bosmeny</h1>
--------------------------
-
-=blue <h1>20. Closing Thoughts and Later-Stage Advice - Sam Altman</h1>
--------------------------
+如何正确的开除一个员工？
+- 快，马上
+- 直说，别绕弯，别道歉，少废话；最好有第三方在场
+- 马上支付应该支付的费用
+- 切断一切数字系统的访问权限
+- 马上买回所有已经落实的期权
 
 ![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
   
-2017.11.21
+=blue <h1>19. Sales and Marketing, How to Pitch, and Investor Meeting Roleplaying - Tyler Bosmeny</h1>
+-------------------------
+做好销售的两大法宝：
+- 对自己的产品充满热情
+- 对所从事的行业非常熟悉
+
+顶级的销售在电话中，自己说话时间占30%，客户说话时间占70%
+不要免费试用，而是30天内退货
+
+They're doing everything they can to find out what this person needs and hopefully understand their problem even better than they do. That's what really great sales is.
+
+If in one sentence you cannot tell your mom what you do, then rework the sentence
+
+=blue 30 second pitch
+- What does your company do?
+- How big is the market?
+- How much traction do you have?
+
+=blue 2 minute pitch
+- Clear 30 second pitch
+- `Unique insight（眼前一亮，打动投资人）`
+- How you make money
+- Team
+- The Big Ask
+
+=blue During the meeting
+- Make sure the listener understands what you're working on.
+- Know your numbers!
+- For market size ideally build bottom up analysis
+- You should understand something that is counter intuitive
+- Your team should be uniquely suited for this business
+- Drive the conversation to a conclusion
+
+=blue After the meeting
+- Follow up(anything by a check is a "No")
+- Work on creating deal heat(supply/demond)
+- Do diligence on the investors
+- Know when to stop(addicted to fundraising)
+- Build your company!(fundraising is not the goal)
+
+![Clever](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1418065272,63818145&fm=27&gp=0.jpg)
+![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
+  
+=blue <h1>20. Closing Thoughts and Later-Stage Advice - Sam Altman</h1>
+-------------------------
+Building a great product -> Building a great company
+
+Codify how you do things
+Codify why you do things(cultural values)
+
+Long-term thinking is rare
+迈出这一步之后，一切都将不同，且再也不可能回头了，回头不是岸
+
+![YC](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511371972652&di=cc0b61f90f318ae83c70ee9649a62fbd&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F60%2F45%2F01300000354882123876458091228.gif)
+  
+2017.11.25
 
 SSS;
 /////////////////////////// 文档内容结束
