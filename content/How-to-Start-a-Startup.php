@@ -196,7 +196,7 @@ Don't spend more money than you have
 不要拘泥于完全竞争的弹丸之地，转角你可能会发现巨大的机会
 精益创业无用，伟大的公司都是做出巨大的改变以和其他人区别开来
 
-PT是那种长远思考、一眼看到底、预见未来的人，在PT眼里精益创业根本就是浪费时间瞎碰运气
+=info PT是那种长远思考、一眼看到底、预见未来的人，在PT眼里精益创业根本就是浪费时间瞎碰运气
 
 ![PayPal](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522627428&di=a6d2fcaabac47752ed91723a254d5f3c&imgtype=0&src=http%3A%2F%2Fstatic.leiphone.com%2Fuploads%2Fnew%2Farticle%2F740_740%2F201606%2F5754f6099ec3b.png)
 ![Palantir](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522415537&di=ab252674984f224f541c2bf317d38482&imgtype=0&src=http%3A%2F%2Fwww.yuntoutiao.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fpalantir-logo.png)
@@ -217,6 +217,7 @@ Facebook的第二个增长目标是国际化
 -------------------------
 >给用户留下良好的第一印象
 重视客服的影响力
+
 ![Wufoo](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511522900458&di=2f1685cf41fb4110ef82c4bfd8b77e23&imgtype=0&src=http%3A%2F%2Fwww.kuqin.com%2Fupimg%2Fallimg%2F110913%2F22152051F-1.jpg)
   
 =blue <h1>8. Doing Things That Don't Scale, PR, and How to Get Started - Walker Williams</h1>
@@ -239,7 +240,7 @@ Is this person rightful, focused, and obsessed by the product?
 Say in one compelling sentence so that the investor immediately can picture the product in their own mind
 Key to success is be so good they can't ignore you
 
-# Onion theory of risk:
+=blue Onion theory of risk:
 - make a list of risks
 - running a startup & raising money is a process of peeling away layers of risk
 - raise seed money to peel away the first two or three risks(founding team, product)
@@ -249,7 +250,7 @@ Key to success is be so good they can't ignore you
 
   
 =blue What Ron and SV Angel Look for in a Company
-# What We Look For
+=blue What We Look For
 - Great team is #1 - "chemistry with Founders"
 - Solid idea or product is important, prerequisite
 - Company in growth sector
@@ -266,7 +267,7 @@ Key to success is be so good they can't ignore you
 - Understand success rate
 - Distribution and business development always important - SALES!
 
-# Founder Personal Characteristics
+=blue Founder Personal Characteristics
 - Decisiveness - often tested in building the team
 - Do not procrastinate
 - Be proactive
@@ -284,7 +285,7 @@ Key to success is be so good they can't ignore you
 - Hire aggressively ahead of needs
 - Lead by example - 24/7, no distractions
 
-# How To Pick Your Investors
+=blue How To Pick Your Investors
 - Rolodex vs time vs Pedigree and Track Record
 - Helping on next financing round
 - How many repeat entrepreneurs choose again
@@ -304,21 +305,21 @@ Company culture is everyday core values and actions of each member of the team i
 Your beliefs become your thoughts. Your thoughts become your words. Your words become your actions. Your actions become your habits. Your habits become your values. Your values become your destiny.
 Fast=First Principles+Aignment+Stability+Trust+Exclusion+Retention
 
-Core value worksheet：
+=blue Core value worksheet：
 - As the leader, what personal values are most important to you?
 - What are the most important values for business success?
 - What values will you look for in employees?
 - What could never be tolerated?(consider the opposite as values)
 - Remember to incorporate your mission into your core values
 
-Elements of high performing teams:
+=blue Elements of high performing teams:
 - Trust
 - Conflict
 - Commitment
 - Accountability
 - Results
 
-Best Practices for culture:
+=blue Best Practices for culture:
 - Incorporate your mission to your values
 - Performance = think harder, deeper, longer about values
 - Interview for culture fit
