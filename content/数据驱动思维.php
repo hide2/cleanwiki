@@ -111,6 +111,41 @@ Facebook在网站改版时采用灰度发布，关注Release Rate，DAU，User E
 ![Zynga](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510245261446&di=ecb8206b7b4262fec86fe471404e2df6&imgtype=0&src=http%3A%2F%2Fpic2.mofang.com.tw%2F2015%2F0508%2F20150508105015848.jpg)
 
 =info 滥用数据容易导致局部优化，进而忽视大局，这是极其危险乃至致命的。渐进式的改变可以达到局部极限，创新则可能导致全局洗牌。同质化和粗糙的快速复制式游戏注定失败。创新玩法、创新体验和高品质才是游戏的未来？
+
+# 数据分析师的三重境界
+-------------------------
+- 数据的搜集、整理和统计
+- 通过数据分析发现问题
+- 通过数据分析指出方向、预见未来
+
+![Data Scientist](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511588692127&di=d8ef337ca4f0cd52cacb08a0d823cdfe&imgtype=0&src=http%3A%2F%2Fimage20.it168.com%2F201308_0x0%2F1521%2Fbd7295001adc447a.png)
+
+  
+# 数据分析三重门
+-------------------------
+- 统计计数
+- 多维分析
+- 机器学习
+
+  
+# 数据分析模型
+-------------------------
+- PRAPA
+    - 用户推广（Promotion）
+    - 注册用户（Register）
+    - 活跃用户（Active）
+    - 付费用户（Pay）
+    - 平均每用户收益（ARPU）
+- AARRR
+    - 获取用户（Acquisition）
+    - 提高活跃度（Activation）
+    - 提高留存率（Retention）
+    - 获取收入（Revenue）
+    - 自传播（Refer）
+
+![AARRR](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511588893157&di=d657c6ad6bc4cd6302b9028a35b2995f&imgtype=0&src=http%3A%2F%2Fimg.ptcms.csdn.net%2Farticle%2F201512%2F03%2F565ff68b33d36.jpg)
+
+
   
 2017.11.9
 
