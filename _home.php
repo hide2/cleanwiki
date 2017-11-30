@@ -26,7 +26,6 @@ require __DIR__.'/_header.php';
 $md = <<<SSS
 - 技术资料
     - [Demo](/Demo)
-    - [Weex](/Weex)
     - [PHP-Laravel](/PHP-Laravel)
     - [Workerman]
     - [Tensorflow]
