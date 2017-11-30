@@ -26,9 +26,9 @@ require __DIR__.'/_header.php';
 $md = <<<SSS
 - 技术资料
     - [Demo](/Demo)
+    - [Weex](/Weex)
     - [PHP-Laravel](/PHP-Laravel)
-    - [EasyWeChat]
-    - [Cocos2d-JS]
+    - [Workerman]
     - [Tensorflow]
 - 思考点滴
     - [数据驱动思维](/数据驱动思维)
