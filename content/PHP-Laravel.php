@@ -27,7 +27,7 @@ $md = <<<SSS
 `他用的是PHP。`
   
 # 趣图赏析-淘宝在售PHP记忆卡
-![PHP记忆卡](http://img1.imgtn.bdimg.com/it/u=476940231,194477151&fm=214&gp=0.jpg)
+![PHP记忆卡](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512066988014&di=82535bc44be4b2282bd402dcd000ba96&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D476940231%2C194477151%26fm%3D214%26gp%3D0.jpg)
   
 # 趣图赏析-PHP眼中的其他语言
 ![PHP眼中的其他语言](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1195453099,3857893795&fm=27&gp=0.jpg)
