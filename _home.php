@@ -31,6 +31,7 @@ $md = <<<SSS
     - [Tensorflow]
 - 思考点滴
     - [数据驱动思维](/数据驱动思维)
+    - [王薄荷H5逆袭](/王薄荷H5逆袭)
 - 读书笔记
     - [Principles](/Principles)
     - [How to Start a Startup](/How-to-Start-a-Startup)
