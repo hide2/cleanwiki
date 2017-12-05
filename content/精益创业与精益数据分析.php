@@ -19,7 +19,8 @@ The central hypothesis of the lean startup methodology is that if startup compa
 -------------------------
 ![Drucker](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512465591699&di=5f49b531bf377375eb2457f7d4e31827&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F62%2F07%2F01300000009075131833071972684.jpg)
   
-=blue If you can't measure it, you can't manage it ——— Peter F．Drucker
+=blue If you can't measure it, you can't manage it
+=blue <span style="float:right">——— Peter F．Drucker</span>
 
   
 =blue <h1>为什么要精益数据分析？</h1>
@@ -42,10 +43,16 @@ The central hypothesis of the lean startup methodology is that if startup compa
   
 =blue <h1>更好的精益创业循环</h1>
 -------------------------
+基本款的精益循环
 `Build`-`Measure`-`Learn`
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/build-measure-learn.jpg)
+  
+Build产品之前需要有Idea目标，然后量化出可衡量的指标，得到结果并基于数据进行学习
 `Ideas`-Build-`Code`-Measure-`Data`-Learn
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/ideas-build-code-measure.jpg)
+
+真实情况下大部分产品是从假设开始，然后设计实验，并加以验证，最终得到领悟
+这才是最符合实际的精益创业循环
 `Hypotheses`-`Design Experiments`-`Test`-`Insight`
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/hypotheses-experiment.jpg)
 
