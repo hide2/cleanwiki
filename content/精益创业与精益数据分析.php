@@ -40,7 +40,7 @@ The central hypothesis of the lean startup methodology is that if startup compa
 几乎就在同一时间段，Airbnb的订单量呈现出了我们常说的`“曲棍球棒曲线”`式增长。
 
   
-=blue <h1>更好精益创业循环</h1>
+=blue <h1>更好的精益创业循环</h1>
 -------------------------
 `Build`-`Measure`-`Learn`
 ![精益创业循环](https://steveblank.files.wordpress.com/2015/05/build-measure-learn.jpg)
@@ -87,6 +87,7 @@ The central hypothesis of the lean startup methodology is that if startup compa
 - `病毒性阶段` — 关注口碑传播、病毒性传播系数
 - `营收阶段` — 关注每位客户营收
 - `规模化阶段` — 关注渠道、地域、营销
+
 关注指标在很大程度上受`特定阶段`的影响，过早的关注某指标或优化无关紧要的内容必然会导致创业失败。
 
   
@@ -126,7 +127,8 @@ The central hypothesis of the lean startup methodology is that if startup compa
 - 意外发现公众号和H5游戏两个行业存在`巨大信息差`，通过公众号菜单栏做H5游戏用户转化，迅速起量
 - `流量定向`：目的性、匹配度、用户画像、提高转化
 - 通过数据来优化转化率，每个转化环节都做好，收益提升`几十倍`
-2017年10月《大天使之剑H5》公测24天流水过亿
+
+=info 2017年10月《大天使之剑H5》公测24天流水过亿
 ![大天使之剑H5](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512467038925&di=c6e1f20157c1ab2072bfde4676f71c36&imgtype=0&src=http%3A%2F%2Fimg.7724.com%2F7724%2Fimg%2F2017%2F09%2F28%2F20170928152539_88247.jpg)
 
   
