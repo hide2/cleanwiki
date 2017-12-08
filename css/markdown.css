@@ -52,12 +52,12 @@ h1, ul {
 }
 .highlight {
 	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
-	background: #EE5037;
+	background: #3078EF;
     padding: 3px 6px;
     border-radius: 3px;
-    color: #f9fafa;
+    color: #ffffff;
     margin: 5px;
-    border: 1px solid #EE5037;
+    border: 1px solid #3078EF;
     overflow-x: auto;
     font-size: 15px;
 }

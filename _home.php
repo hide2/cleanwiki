@@ -26,12 +26,13 @@ require __DIR__.'/_header.php';
 $md = <<<SSS
 - 技术资料
     - [Demo](/Demo)
-    - [Weex](/Weex)
     - [PHP-Laravel](/PHP-Laravel)
     - [Workerman]
     - [Tensorflow]
 - 思考点滴
     - [数据驱动思维](/数据驱动思维)
+    - [精益创业与精益数据分析](/精益创业与精益数据分析)
+    - [王薄荷H5逆袭](/王薄荷H5逆袭)
 - 读书笔记
     - [Principles](/Principles)
     - [How to Start a Startup](/How-to-Start-a-Startup)
